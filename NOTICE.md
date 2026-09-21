@@ -22,5 +22,5 @@ endorsed by Digital Extremes Ltd.
 
 ## Licensing
 
-- Game-derived data files (`data/`, `locales/`): see [LICENSE.md](LICENSE.md)
-- Pipeline code (`scripts/`, `schema/`): MIT, see [LICENSE.md](LICENSE.md)
+- Game-derived data files (`data/`, `i18n/`): see [LICENSE.md](LICENSE.md)
+- Schemas and repository configuration (`schema/`): MIT, see [LICENSE.md](LICENSE.md)

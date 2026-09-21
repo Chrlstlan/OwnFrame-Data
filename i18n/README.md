@@ -13,8 +13,9 @@ One directory per language, named by its locale code:
 
 ```
 i18n/
-  de/ en/ es/ fr/ it/ ja/ ko/ pl/ pt/ ru/ tc/ th/ tr/ uk/ zh/
-    ui.json        the UI strings for this language
+  locales/
+    de/ en/ es/ fr/ it/ ja/ ko/ pl/ pt/ ru/ tc/ th/ tr/ uk/ zh/
+      ui.json        the UI strings for this language
 ```
 
 ## Format

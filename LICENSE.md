@@ -4,25 +4,25 @@ This repository contains two kinds of content with different licenses.
 
 ## Game-derived data — CC BY 4.0
 
-Everything under `data/` and `locales/` (the item catalog, drop data, curated
-datasets, locale overlays) is licensed under
+Everything under `data/` and `i18n/` (the item catalog, drop data, curated
+datasets, UI strings) is licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 You are free to share and adapt this data, including for commercial use, as
 long as you give attribution. A line like the following is sufficient:
 
-> Item data from [OwnFrame-Items](https://github.com/Chrlstlan/OwnFrame-Items),
+> Item data from [OwnFrame-Data](https://github.com/Chrlstlan/OwnFrame-Data),
 > derived from Digital Extremes' official Warframe Public Export.
 
-## Pipeline code — MIT
+## Schemas and configuration — MIT
 
-Everything under `scripts/` and `schema/` (the fetch/build/validate tooling) is
+Everything under `schema/` (the JSON Schemas) is
 licensed under the MIT License.
 
 ```
 MIT License
 
-Copyright (c) 2026 OwnFrame-Items contributors
+Copyright (c) 2026 OwnFrame-Data contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

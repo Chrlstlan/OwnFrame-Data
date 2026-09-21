@@ -29,7 +29,7 @@ Open an issue and include, where relevant:
 |---|---|
 | Wrong/missing mod polarity | `data/polarities.json` |
 | Wrong/missing ducat value | `data/ducats.json` |
-| Bad or awkward UI text in language X (buttons, labels, hints) | `i18n/X/ui.json` |
+| Bad or awkward UI text in language X (buttons, labels, hints) | `i18n/locales/X/ui.json` |
 | Wrong item data (name, stats, recipe, drops) | open an issue — these come from the official exports and need a pipeline-level fix |
 
 ## Validation

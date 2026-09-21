@@ -1,8 +1,9 @@
-# OwnFrame-Items
+# OwnFrame-Data
 
-OwnFrame's Warframe item database: a structured master catalog of every item in
-the game, per-locale name overlays, and community-curated datasets (polarities,
-ducats, drop data).
+OwnFrame's public Warframe data: a structured master catalog of every item in
+the game, drop data, community-curated datasets (polarities, ducats), and the
+app/web UI strings in 15 languages — maintained by the OwnFrame team and
+improved by the community.
 
 The catalog is derived from Digital Extremes' official Public Export files and
 the official drop tables — see [NOTICE.md](NOTICE.md) for sources and
@@ -10,11 +11,12 @@ attribution.
 
 ## Status
 
-This repository is being set up. The directory layout below is the target
-structure; `data/` and `locales/` are being populated by the existing
-OwnFrame data pipeline.
+This repository is being set up. The layout below is the target structure;
+`data/` and `i18n/` are being populated by the (private) OwnFrame data
+pipeline. Generated files land here; the pipeline itself is not part of this
+repository.
 
-## Planned layout
+## Layout
 
 ```
 data/            Master catalog (English names, all structural data)
@@ -23,8 +25,8 @@ data/            Master catalog (English names, all structural data)
   polarities.json  Community-corrected mod polarities
   ducats.json    Ducat values
 i18n/            App and web UI strings per language (community-editable)
+  locales/       One directory per language, each with a ui.json
 schema/          JSON Schemas documenting every data file's format
-scripts/         Pipeline: fetch official exports, build, validate
 ```
 
 ## How the data is shaped
@@ -44,14 +46,12 @@ What **is** community-editable here: the app and web **UI strings** under
 
 ## Consuming the data
 
-Four ways to consume, pick what fits your project:
-
-1. **npm package** — `@ownframe/items` (workspace package; publishes later)
+1. **npm package** — `@ownframe/data` (workspace package; publishes later)
 2. **Raw URL** — point at `data/*.json` on `raw.githubusercontent.com`
 3. **Pinned release** — tag releases so your app never sees silent data drift
-4. **Clone + build** — run the pipeline yourself against the official sources
 
 ## Contributing
 
-Found a wrong polarity, a missing item, or a bad translation? See
-[CONTRIBUTING.md](CONTRIBUTING.md) — most fixes are a single-file pull request.
+Found a wrong polarity, a wrong UI string in your language, or a broken item?
+See [CONTRIBUTING.md](CONTRIBUTING.md) — most fixes are a single-file pull
+request or a one-line issue.
