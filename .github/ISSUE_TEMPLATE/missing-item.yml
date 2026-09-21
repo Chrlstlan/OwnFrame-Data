@@ -1,0 +1,21 @@
+name: Missing or wrong item
+description: An item is missing from the catalog, or its name/stats/recipe/drops are wrong.
+labels: ["item-data"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is missing or wrong
+      description: The item name and what is wrong about it (name, stats, recipe, drop location, image, …).
+    validations:
+      required: true
+  - type: input
+    id: uniqueName
+    attributes:
+      label: Item uniqueName (if known)
+      description: From data/items.json — leave empty if the item is missing entirely.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: What the game actually shows — screenshot from in-game is ideal.

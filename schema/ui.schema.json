@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OwnFrame UI strings",
+  "description": "Validates i18n/locales/<lang>/ui.json. The file is a tree of nested objects whose leaves are UI strings (or arrays of them). Every string value must be non-empty. Keys are string identifiers shared across all languages — renaming a key breaks the apps, so structural-only validation is intentional here.",
+  "type": "object",
+  "definitions": {
+    "value": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/value" }
+        },
+        {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "type": "string",
+            "minLength": 1
+          },
+          "additionalProperties": { "$ref": "#/definitions/value" }
+        }
+      ]
+    }
+  },
+  "additionalProperties": { "$ref": "#/definitions/value" }
+}

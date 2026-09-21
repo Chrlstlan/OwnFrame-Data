@@ -1,0 +1,23 @@
+name: Wrong mod polarity
+description: A mod shows the wrong pre-installed polarity in OwnFrame.
+labels: ["polarity"]
+body:
+  - type: input
+    id: uniqueName
+    attributes:
+      label: Item uniqueName
+      description: From data/items.json — makes the report unambiguous. If you only know the mod's display name, that works too.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the polarity should be
+      description: Which slots, which polarity (Madurai/Vazarin/Naramon/Penjaga/Umbra, Aura/Exilus/Stance slot)?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How you verified it
+      description: Screenshot from in-game (mod install screen) is ideal.

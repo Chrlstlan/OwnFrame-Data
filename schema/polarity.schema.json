@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OwnFrame mod polarities",
+  "description": "Validates data/polarities.json: community-corrected pre-installed slot polarities for Warframes and weapons. Keys are item uniqueNames (exactly the catalog's uniqueName field, stable across all item locales). _-prefixed keys are file metadata, not data entries.",
+  "type": "object",
+  "properties": {
+    "_comment": {
+      "type": "string"
+    },
+    "_format": {
+      "type": "string"
+    },
+    "_date": {
+      "type": "string"
+    }
+  },
+  "patternProperties": {
+    "^(?!_)": {
+      "type": "object",
+      "required": [
+        "polarities"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "polarities": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 12,
+          "items": {
+            "type": "string",
+            "enum": [
+              "madurai",
+              "vazarin",
+              "naramon",
+              "penjaga",
+              "umbra",
+              "universal",
+              "unairu",
+              "zenurik"
+            ]
+          }
+        },
+        "aura": {
+          "type": "string",
+          "enum": [
+            "madurai",
+            "vazarin",
+            "naramon",
+            "penjaga",
+            "umbra",
+            "universal",
+            "unairu",
+            "zenurik"
+          ]
+        },
+        "exilusPolarity": {
+          "type": "string",
+          "enum": [
+            "madurai",
+            "vazarin",
+            "naramon",
+            "penjaga",
+            "umbra",
+            "universal",
+            "unairu",
+            "zenurik"
+          ]
+        },
+        "stancePolarity": {
+          "type": "string",
+          "enum": [
+            "madurai",
+            "vazarin",
+            "naramon",
+            "penjaga",
+            "umbra",
+            "universal",
+            "unairu",
+            "zenurik"
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

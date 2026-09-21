@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/Chrlstlan/OwnFrame-Data/discussions
+    description: Anything that is not a concrete data or translation fix.

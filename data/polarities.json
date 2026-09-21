@@ -1,0 +1,4238 @@
+{
+  "_comment": "Curated gap: pre-installed slot polarities for Warframes AND weapons (regular slot polarities, plus the Aura, Exilus and Stance slot polarity). Not derivable from any official source — the official Public Export files and the droptables carry no slot/aura polarity data (verified against all of them). Sourced from the community-maintained item snapshot (polarity lines only, junk filtered; see catalog-workspace/community-polarity-only/README.md). Supersedes the name-keyed warframe_polarities.json: keys are now item uniqueNames so the assembler matches under any item locale.",
+  "_format": "Keys are item uniqueNames (exactly the built catalog uniqueName field; stable across all item locales). Values: { polarities: [regular slots], aura? (Warframe), exilusPolarity? (Warframe Exilus adapter slot), stancePolarity? (weapon stance slot) }. Fields are omitted when the source carries none. _-prefixed keys are ignored by the CatalogBuilder.",
+  "/Lotus/Powersuits/Alchemist/Alchemist": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Alchemist/LavosPrime": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/AntiMatter/Anti": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/AntiMatter/NovaPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Banshee/Banshee": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Banshee/BansheePrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Bard/Bard": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Bard/OctaviaPrime": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Berserker/Berserker": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Berserker/ValkyrPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Brawler/AtlasPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Brawler/Brawler": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/BrokenFrame/BrokenFrame": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/BrokenFrame/XakuPrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Choir/Choir": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Cowgirl/Cowgirl": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Cowgirl/MesaPrime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Dagath/Dagath": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "zenurik"
+  },
+  "/Lotus/Powersuits/DemonFrame/DemonFrame": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Devourer/Devourer": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Devourer/GrendelPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Dragon/ChromaPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Dragon/Dragon": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Ember/Ember": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Ember/EmberPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Excalibur/Excalibur": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Powersuits/Excalibur/ExcaliburPrime": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Excalibur/ExcaliburUmbra": {
+    "polarities": [
+      "madurai",
+      "umbra",
+      "umbra",
+      "umbra"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Fairy/Fairy": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Fairy/TitaniaPrime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Frost/Frost": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Frost/FrostPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Frumentarius/Frumentarius": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Garuda/Garuda": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Garuda/GarudaPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Geode/Geode": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Glass/GaraPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Glass/Glass": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Gyre/Gyre": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Gyre/GyrePrime": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Harlequin/Harlequin": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Harlequin/MiragePrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Hoplite/Hoplite": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Hoplite/StyanaxPrime": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Infestation/Infestation": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Infestation/InfestationPrime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Inkblot/Inkblot": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/IronFrame/IronFrame": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "vazarin"
+  },
+  "/Lotus/Powersuits/IronFrame/IronFramePrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "vazarin"
+  },
+  "/Lotus/Powersuits/Jade/Jade": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Jade/NyxPrime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Khora/Khora": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Khora/KhoraPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Koumei/Koumei": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Loki/Loki": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Loki/LokiPrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Mag/Mag": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Mag/MagPrime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Magician/LimboPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Magician/Magician": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/MonkeyKing/MonkeyKing": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/MonkeyKing/WukongPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Necro/Necro": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Powersuits/Necro/NekrosPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Powersuits/Nezha/Nezha": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Nezha/NezhaPrime": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Ninja/AshPrime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Ninja/Ninja": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Nokko/Nokko": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Odalisk/Odalisk": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Powersuits/Odalisk/ProteaPrime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Powersuits/Oraxia/Oraxia": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Pacifist/BaruukPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Pacifist/Pacifist": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Pagemaster/Pagemaster": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Powersuits/Paladin/Paladin": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Paladin/PaladinPrime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Pirate/HydroidPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Pirate/Pirate": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Priest/HarrowPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Priest/Priest": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Ranger/IvaraPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Ranger/Ranger": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Revenant/Revenant": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Revenant/RevenantPrime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Rhino/Rhino": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Rhino/RhinoPrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Runner/GaussPrime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Runner/Runner": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Sandman/InarosPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Sandman/Sandman": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "naramon",
+    "exilusPolarity": "naramon"
+  },
+  "/Lotus/Powersuits/Saryn/Saryn": {
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Saryn/SarynPrime": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Sentient/CalibanPrime": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Sentient/Sentient": {
+    "polarities": [
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/SiriusOrion/SiriusSuit": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Temple/Temple": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Tengu/Tengu": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Tengu/ZephyrPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Trapper/Trapper": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Trapper/TrapperPrime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Trinity/Trinity": {
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Trinity/TrinityPrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Volt/Volt": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Volt/VoltPrime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Werewolf/VorunaPrime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Werewolf/Werewolf": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  "/Lotus/Powersuits/Wisp/Wisp": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Wisp/WispPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/Wraith/SevagothPrime": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Powersuits/Wraith/Wraith": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Powersuits/Yareli/Yareli": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/Yareli/YareliPrime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ],
+    "aura": "madurai"
+  },
+  "/Lotus/Powersuits/YinYang/EquinoxPrime": {
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Powersuits/YinYang/YinYang": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "aura": "naramon"
+  },
+  "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP": {
+    "polarities": []
+  },
+  "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS": {
+    "polarities": []
+  },
+  "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS": {
+    "polarities": []
+  },
+  "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Cephalon/Primary/CephPrimary/CephPrimary": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Bio/BioWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Chemical/FlameThrower": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Chemical/FlameThrowerWraith": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Chemical/RocketLauncher": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/CrpHeavyRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/CrpLaserRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/DeraVandal": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/ElectroProd": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/ClanTech/Energy/EnergyRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/Railgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/ClanTech/Energy/VandalElectroProd": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEArcaPlasmor/CrpBEArcaPlasmor": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFerrox/CrpBEFerrox": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEFluxRifle/CrpBEFluxRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEQuanta/CrpBEQuanta": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBETetra/CrpBETetra": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBow": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Bow/Longbow/PrismaLenz/PrismaLenzWeapon": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/ChainLightningGun/ChainLightningRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/CorpusUMP": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpArSniper/CrpArSniperRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/CrpBFG": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpBFG/Vandal/VandalCrpBFG": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncher": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/Vandal/CrpFreezeRayVandalRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpRubanRifle/CrpRubanRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpSentAmlgSniper/CrpSentAmlgSniper": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpShapeBlast/CrpShapeBlastShotgun": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/CrpShockRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpShockRifle/QuantaVandal": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpShotgun/CrpShotgun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/CrpSplitLaser/CrpSplitLaser": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/CarminePenta": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/GrenadeLauncher/GrenadeLauncher": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/Machinegun/SupraVandal": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/LongGuns/Spears/Railgun/CorpusRailgun": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Corpus/Melee/CrpBriefcaseScythe/CrpBriefcaseScythe": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpTonfa": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGlaive/CrpGlaive": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/KickAndPunch/PrismaObex": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Drakgoon/KuvaDrakgoon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hek/KuvaHekWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Hind/KuvaHind": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Karak/KuvaKarak": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Ogris/KuvaOgris": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Quartakk/KuvaQuartakk": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Sobek/KuvaSobek": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Tonkor/KuvaTonkor": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Zarr/KuvaZarr": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Melee/Ghoulsaw/KuvaGhoulSaw": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/BurstRifle/GrnBurstRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/GrnAssaultRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/GLARifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerLeverActionRifle/PrismaGrinlokWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/GrineerM16Rifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerM16Homage/KarakWraith": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeGun": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/VulkarWraith": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnCannon/GrnCannonWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GrnFlameSpear": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnFourBarrelRifle/GrnFourBarrelRifleWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnGorgSniperRifle/GrnGorgSniperRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnGrenadeLauncher/GrnGrenadeLauncher": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnHarpoonGun/GrnHarpoonGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/LaserAimRifle/LaserAimRifle": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/VoidTraderGorgon/VTGorgon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/LongGuns/WraithGorgon/WraithGorgon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerHalberd/GrnHalberd": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/Machete": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/GrnBoomerang": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnGhoulSaw/GrnGhoulSawPlayer": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnKusarigama/GrnKusarigamaWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnQueenSceptre/GrnQueenSceptreWeapon": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Grineer/Melee/Scythe/GrnDrillScythe/GrnDrillScythe": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaBubonico/CodaBubonicoCannon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaHema": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSynapse": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaHirudo": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaMire": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/InfArmCannon/InfArmCannon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/InfestedRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Infested/LongGuns/QuantaFullyInfested/InfQuantaRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Infested/LongGuns/Tentacluster/InfestedShotgun": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Infested/Melee/Nunchaku/InfNunchuck/InfNunchuck": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Infested/Melee/Swords/Mios/Mios": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Infested/Pistols/InfestedPistol": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/MK1Series/MK1Bo": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/MK1Series/MK1Furax": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/MK1Series/MK1Furis": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/MK1Series/MK1Kunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/MK1Series/MK1Paris": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/MK1Series/MK1Strun": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIICritI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIStatusI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIICritI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIStatusI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusI": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusII": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFive": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFour": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSix": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThree": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFive": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFour": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipSix": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipThree": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNine": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTen": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipOne": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipTwo": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Melee/AHBoltace": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/CephalonSuda/LongGuns/CSSimulor": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/NewLoka/LongGuns/NLTigris": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/PerrinSequence/LongGuns/PSPenta": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/PerrinSequence/Melee/PSLecta": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/RedVeil/Bows/RVCernos": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDagger": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/SteelMeridian/LongGuns/SMHek": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Syndicates/SteelMeridian/Melee/SMSydon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/DualMagnus": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/DualVastos": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/ArchHammer/ArchHammer": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/ArchScythe/ArchScythe": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/ArchSwordHook/ArchHookSwordWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/Archaxe/ArchAxeWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/Archsword/ArchSwordWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/GrnArchHand/GrnArchHandWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Melee/VoidTraderArchsword/VTArchSwordWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/AsymetricalBow/AsymetricalBow": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/HuntingBow": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/Omicrus/OmicrusPlayerWep": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/PrimeCernos/PrimeCernos": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/PrimeDaikyu/PrimeDaikyuBow": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/PrimeDerelictCernos/DerelictCernos": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/PrimeHuntingBow": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/StalkerBow": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/DexTheThird/DexTheThird": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/DrakeRifle/DrakeRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/Miter/TnoMiter": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeAlternox/PrimeAlternoxWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeAstilla/AstillaPrimeWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeBaza/PrimeBazaGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeBurston/PrimeBurston": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeCedo/PrimeCedoWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeCorinth/PrimeCorinth": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeFulmin/PrimeFulmin": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeNagantaka/PrimeNagantakaWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimePerigale/PrimePerigaleSniper": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeScourge/PrimeScourgeWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeSoma/PrimeSomaRifle": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeStradavar/PrimeStradavarGun": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeTiberon/PrimeTiberonRifle": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeTrumna/PrimeTrumnaWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeVectis/PrimeVectisRifle": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgun": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/RubicoPrime/RubicoPrimeWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryWeapon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TennoTommyGun/TennoTommyGunRifle": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunGun": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnHeavyShotgun/TnHeavyShotgunGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnInkRifle/TnInkRifleWeapon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnPriestSpear/TnPriestSpearGun": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnRailjackRifle/RailjackRifleGun": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnRifleErsatz/TnRifleErsatzWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnSMG/TnSMGWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnoLotusPodShotgun/TnoLotusPodShotgun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/TnoPrmryXbow/TnoPrmryXbowWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/WraithLatron/WraithLatron": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/AxeWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/PrimeScindo/PrimeScindoWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/PrimeVorunaAxeWeapon": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/PrimeZoren/PrimeZorenAxeWeapon": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Claws/TennoClaws": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/CronusSword/CronusLongSword": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Dagger/DarkDagger": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualKamas/DualKamas": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualHeatSwords": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Fist/Fist": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gauntlet/BrawlerKnuckles/BrawlerKnuckles": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gauntlet/Gauntlet": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeKestrel/PrimeKestrel": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Glaives/TeshinGlaive/TnTeshinGlaiveWep": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Hammer/HammerWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/LongSword/EtherSword": {
+    "polarities": [],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Nunchaku/TnoNunchaku/TnoNunchaku": {
+    "polarities": [],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PersianMachete/DjinnMachete": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon": {
+    "polarities": [],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeDualKamas/PrimeDualKamas": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeFragor/PrimeFragor": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeKogake/KogakePrimeKnuckles": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeVenKa/PrimeVenkaClaws": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/EtherScytheWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/ParisScythe/ParisScythe": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoScythe": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/ReaperWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Soma/SomaDualKamas": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/GrnStaff": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/SingleStaff": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/Staff": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SunDialAxe/SundialAxeWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkLongSword": {
+    "polarities": [],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/DexTheSecond/DexTheSecond": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/NWIIIOrokinSword/NWOrokinSword": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PRapier/DestrezaPrime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PangolinSword/PangolinLongSword": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword": {
+    "polarities": [],
+    "stancePolarity": "unairu"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKaryst/PrimeKrisDagger": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeNamiSkyla/PrimeNamiSkyla": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/PrimeWar/PrimeWarWeapon": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwords": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/OperationsLacera": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoSmallSword": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/ThreeLeaf/ThreeLeaf": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatana": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana": {
+    "polarities": [
+      "umbra",
+      "umbra"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword": {
+    "polarities": [
+      "vazarin"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Tonfa/Boltonfa/Boltonfa": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinner/TennoTonfa": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeQuassus/PrimeQuassusWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon": {
+    "polarities": [],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "naramon"
+  },
+  "/Lotus/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "zenurik"
+  },
+  "/Lotus/Weapons/Tenno/Pistol/AutoPistol": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/BroncoPrime": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistol/BurstPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/CrossBow": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/HandShotGun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistol/HeavyPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/LatoPrime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/LatoVandal": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistol/Pistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistol/RevolverPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/BoltoRifle": {
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/BratonPrime": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Rifle/BurstRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/HeavyRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Rifle/LatronPrime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/Rifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Rifle/SemiAutoRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/SniperRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/StartingRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Rifle/TennoAR": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/TennoSniperRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/VIPRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Rifle/VandalSniperRifle": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/DoubleBarrelShotgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/FullAutoShotgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/PrimeBoar": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/QuadShotgun": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/Shotgun": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Shotgun/ShotgunVandal": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette": {
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Zariman/LongGuns/PumpShotgun/ZarimanPumpShotgun": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Zariman/Melee/HeavyScythe/ZarimanHeavyScythe/ZarimanHeavyScytheWeapon": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon": {
+    "polarities": [
+      "naramon"
+    ],
+    "stancePolarity": "vazarin"
+  },
+  "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer": {
+    "polarities": [
+      "madurai"
+    ],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon": {
+    "polarities": [
+      "madurai"
+    ]
+  },
+  "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/VoidTrader/PrismaGrakata": {
+    "polarities": []
+  },
+  "/Lotus/Weapons/VoidTrader/PrismaSkana": {
+    "polarities": [],
+    "stancePolarity": "madurai"
+  },
+  "/Lotus/Weapons/VoidTrader/VTDetron": {
+    "polarities": []
+  }
+}

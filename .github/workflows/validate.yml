@@ -1,0 +1,59 @@
+# Validates every pull request: all data/i18n files must match their JSON
+# Schema, and every language's ui.json must carry the same key tree as
+# en/ui.json (renamed keys or partial files break the apps).
+
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "i18n/**"
+      - "schema/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate locale files against ui.schema.json
+        run: npx --yes ajv-cli@5 validate -s schema/ui.schema.json -d "i18n/locales/*/ui.json" --spec=draft7 --errors=text
+
+      - name: Validate curated datasets
+        run: |
+          npx --yes ajv-cli@5 validate -s schema/polarity.schema.json -d "data/polarities.json" --spec=draft7 --errors=text
+          npx --yes ajv-cli@5 validate -s schema/ducats.schema.json -d "data/ducats.json" --spec=draft7 --errors=text
+
+      - name: Check key parity across languages
+        run: node -e "
+          const { readFileSync } = require('node:fs');
+          const base = 'i18n/locales';
+          const langs = require('node:fs').readdirSync(base);
+          const leafs = (o, p = '', out = []) => {
+            for (const [k, v] of Object.entries(o)) {
+              const q = p ? p + '.' + k : k;
+              if (v && typeof v === 'object' && !Array.isArray(v)) leafs(v, q, out); else out.push(q);
+            }
+            return out;
+          };
+          const ref = new Set(leafs(JSON.parse(readFileSync(base + '/en/ui.json', 'utf8'))));
+          let bad = 0;
+          for (const lang of langs) {
+            const keys = new Set(leafs(JSON.parse(readFileSync(base + '/' + lang + '/ui.json', 'utf8'))));
+            const missing = [...ref].filter((k) => !keys.has(k));
+            const extra = [...keys].filter((k) => !ref.has(k));
+            if (missing.length || extra.length) {
+              bad++;
+              console.error(lang + ': missing=' + missing.length + ' extra=' + extra.length +
+                (missing.length ? '  e.g. ' + missing.slice(0, 3).join(', ') : '') +
+                (extra.length ? '  e.g. ' + extra.slice(0, 3).join(', ') : ''));
+            }
+          }
+          if (bad) { console.error(bad + ' language file(s) out of parity with en/ui.json'); process.exit(1); }
+          console.log('key parity OK across ' + langs.length + ' languages');
+        "
