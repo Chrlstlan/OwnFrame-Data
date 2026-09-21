@@ -22,7 +22,7 @@ data/            Master catalog (English names, all structural data)
   drops/         Drop tables: missions, relics, enemies
   polarities.json  Community-corrected mod polarities
   ducats.json    Ducat values
-locales/         Per-language name overlays, keyed by uniqueName
+i18n/            App and web UI strings per language (community-editable)
 schema/          JSON Schemas documenting every data file's format
 scripts/         Pipeline: fetch official exports, build, validate
 ```
@@ -36,6 +36,11 @@ produces it). There is no nesting between records.
 Optional fields appear only where they make sense for the item's category
 (`stats` on Warframes and weapons, `recipe` on craftable items, `relicRewards`
 on relics, …).
+
+Item names in other languages are derived from the official localized exports
+by the pipeline — they are not community-editable files in this repository.
+What **is** community-editable here: the app and web **UI strings** under
+`i18n/` (buttons, labels, hints — the surfaces, not the game data).
 
 ## Consuming the data
 

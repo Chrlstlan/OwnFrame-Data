@@ -5,7 +5,7 @@ tells you exactly what you can change. The key rule:
 
 > **`data/items.json` and the files under `data/drops/` are pipeline-generated.
 > Do not edit them by hand — your changes will be overwritten on the next
-> refresh.** Everything under `locales/` and the curated datasets
+> refresh.** Everything under `i18n/` and the curated datasets
 > (`data/polarities.json`, `data/ducats.json`) is community-maintained and
 > edit-safe.
 
@@ -29,7 +29,7 @@ Open an issue and include, where relevant:
 |---|---|
 | Wrong/missing mod polarity | `data/polarities.json` |
 | Wrong/missing ducat value | `data/ducats.json` |
-| Bad or missing translation for language X | `locales/X/names.json` |
+| Bad or awkward UI text in language X (buttons, labels, hints) | `i18n/X/ui.json` |
 | Wrong item data (name, stats, recipe, drops) | open an issue — these come from the official exports and need a pipeline-level fix |
 
 ## Validation
