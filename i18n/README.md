@@ -18,6 +18,14 @@ i18n/
       ui.json        the UI strings for this language
 ```
 
+## Namespaces
+
+`ui.json` holds the strings of **both** OwnFrame surfaces in one tree:
+
+- Top-level groups are the **desktop app** domains (`builds`, `settings`, …).
+- All **web site** strings live under the `web.*` namespace (`web.header`,
+  `web.landing`, …), so the two surfaces never collide.
+
 ## Format
 
 `ui.json` holds the UI strings, keyed by stable string identifiers — the same
