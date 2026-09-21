@@ -1,0 +1,12 @@
+{
+  "name": "@ownframe/items",
+  "version": "0.1.0",
+  "description": "OwnFrame Warframe item database: master catalog, per-locale name overlays, and community-curated datasets.",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrlstlan/OwnFrame-Items.git"
+  }
+}
