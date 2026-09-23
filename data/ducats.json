@@ -1,9 +1,0 @@
-{
-  "_comment": "Kuratierte Luecke: Ducats-Wert (Verkaufswert an Baro Ki'Teer) pro Prime-Teil. Steht in KEINEM offiziellen DE-Datensatz und nicht bei Warframe Market. Quelle: in-game (Relic-Refinement-Anzeige) oder Wiki. Schluessel = Item-Name wie in All.json (Blueprint-Name, z.B. 'Ash Prime Chassis Blueprint'). Werte: int (15/45/100). Bei neuen Prime-Access ergaenzen.",
-  "_example": {
-    "Ash Prime Chassis Blueprint": 100,
-    "Ash Prime Neuroptics Blueprint": 45,
-    "Ash Prime Systems Blueprint": 45,
-    "Ash Prime Blueprint": 15
-  }
-}
