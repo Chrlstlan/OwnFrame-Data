@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "OCR runtime assets for OwnFrame (ONNX models + Tesseract traineddata). Downloaded on first OCR warm-up and cached under %LocalAppData%/OwnFrame/ocr-assets/.",
+  "description": "OCR runtime assets for OwnFrame (ONNX models + Tesseract traineddata). Downloaded on first OCR warm-up and cached under the Overwolf extension appData folder (removed on uninstall).",
   "assets": [
     {
       "id": "reward_tile",

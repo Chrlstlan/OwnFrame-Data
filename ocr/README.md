@@ -2,7 +2,9 @@
 
 Binary models used by the OwnFrame Overwolf app for relic-reward OCR.
 They are **not** shipped inside the OPK — the app downloads them on first
-warm-up and caches them under `%LocalAppData%/OwnFrame/ocr-assets/`.
+warm-up and caches them under the Overwolf extension appData folder
+(`%AppData%\Roaming\Overwolf\<UID>\ocr-assets\`), which is removed when the
+user uninstalls the app.
 
 | File | Purpose |
 | --- | --- |
