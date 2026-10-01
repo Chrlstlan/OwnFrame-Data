@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "description": "OCR runtime assets for OwnFrame (ONNX models + Tesseract traineddata). Downloaded on first OCR warm-up and cached under %LocalAppData%/OwnFrame/ocr-assets/.",
+  "assets": [
+    {
+      "id": "reward_tile",
+      "path": "reward_tile.onnx",
+      "sha256": "0ac4e57aebb3d4af0bb6728608a927426a7513e15901503aee7bff48c801b735",
+      "bytes": 12265206
+    },
+    {
+      "id": "theme_classifier",
+      "path": "theme_classifier.onnx",
+      "sha256": "423f31649e1fce61832979289fa11c308e966af61e95003028e66b80f640d334",
+      "bytes": 8965631
+    },
+    {
+      "id": "tessdata_eng",
+      "path": "tessdata/eng.traineddata",
+      "sha256": "8280aed0782fe27257a68ea10fe7ef324ca0f8d85bd2fd145d1c2b560bcb66ba",
+      "bytes": 15400601
+    },
+    {
+      "id": "tessdata_deu",
+      "path": "tessdata/deu.traineddata",
+      "sha256": "896b3b4956503ab9daa10285db330881b2d74b70d889b79262cc534b9ec699a4",
+      "bytes": 15437534
+    }
+  ]
+}

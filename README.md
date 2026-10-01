@@ -27,8 +27,9 @@ data/            Master catalog (English names, all structural data)
 i18n/            App and web UI strings per language (community-editable)
   locales/       One directory per language, each with a ui.json
 schema/          JSON Schemas documenting every data file's format
+ocr/             OCR runtime binaries for the Overwolf app (ONNX + tessdata);
+                 downloaded on first warm-up — see ocr/README.md
 ```
-
 ## How the data is shaped
 
 Every item is a single flat record. Items reference each other exclusively via
