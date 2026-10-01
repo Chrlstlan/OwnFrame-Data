@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "未辨識到物品——目錄可能還在載入",
       "toastNoScreen": "未辨識到遺物獎勵介面",
       "toastOcrTimeout": "OCR 逾時——未辨識到遺物獎勵",
-      "unknownSetName": "套裝"
+      "unknownSetName": "套裝",
+      "toastOcrUnavailable": "OCR 外掛不可用 — 請重新安裝 OwnFrame 或切換頻道",
+      "toastOcrFailed": "OCR 失敗 — 無法讀取遺物獎勵"
     },
     "subscription": {
       "active": "已啟用",

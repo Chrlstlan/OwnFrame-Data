@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "จำแนกไอเทมไม่ได้ — แคตาล็อกอาจยังโหลดอยู่",
       "toastNoScreen": "จำแนกหน้ารางวัลเรลิกไม่ได้",
       "toastOcrTimeout": "OCR หมดเวลา — จำแนกรางวัลเรลิกไม่ได้",
-      "unknownSetName": "เซ็ต"
+      "unknownSetName": "เซ็ต",
+      "toastOcrUnavailable": "ปลั๊กอิน OCR ไม่พร้อมใช้งาน — ติดตั้ง OwnFrame ใหม่หรือเปลี่ยนช่อง",
+      "toastOcrFailed": "OCR ล้มเหลว — อ่านรางวัลเรลิกไม่ได้"
     },
     "subscription": {
       "active": "ใช้งานอยู่",

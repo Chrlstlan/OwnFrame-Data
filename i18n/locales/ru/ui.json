@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Предметы не распознаны — каталог ещё загружается?",
       "toastNoScreen": "Экран награды реликвии не обнаружен",
       "toastOcrTimeout": "Тайм-аут OCR — награды реликвии не распознаны",
-      "unknownSetName": "Сет"
+      "unknownSetName": "Сет",
+      "toastOcrUnavailable": "OCR-плагин недоступен — переустановите OwnFrame или смените канал",
+      "toastOcrFailed": "Ошибка OCR — награды реликвии не удалось прочитать"
     },
     "subscription": {
       "active": "Активен",

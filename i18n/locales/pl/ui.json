@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Nie rozpoznano przedmiotów — katalog jeszcze się wczytuje?",
       "toastNoScreen": "Nie wykryto ekranu nagrody relikwu",
       "toastOcrTimeout": "Przekroczono czas OCR — nie rozpoznano nagród relikwu",
-      "unknownSetName": "Zestaw"
+      "unknownSetName": "Zestaw",
+      "toastOcrUnavailable": "Wtyczka OCR niedostępna — przeinstaluj OwnFrame lub zmień kanał",
+      "toastOcrFailed": "OCR nie powiódł się — nie odczytano nagród reliktu"
     },
     "subscription": {
       "active": "Aktywne",

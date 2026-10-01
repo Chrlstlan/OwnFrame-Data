@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Предмети не розпізнано — можливо, каталог ще завантажується",
       "toastNoScreen": "Екран нагород з реліквій не розпізнано",
       "toastOcrTimeout": "Тайм-аут OCR — нагороди з реліквій не розпізнано",
-      "unknownSetName": "Сет"
+      "unknownSetName": "Сет",
+      "toastOcrUnavailable": "OCR-плагін недоступний — перевстановіть OwnFrame або змініть канал",
+      "toastOcrFailed": "Помилка OCR — нагороди реліквії не вдалося прочитати"
     },
     "subscription": {
       "active": "Активний",

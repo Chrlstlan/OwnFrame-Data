@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Items nicht erkannt — Katalog lädt noch?",
       "toastNoScreen": "Kein Relic-Belohnungsscreen erkannt",
       "toastOcrTimeout": "OCR-Timeout — Relic-Belohnungen nicht erkannt",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "OCR-Plugin nicht verfügbar — OwnFrame neu installieren oder Channel prüfen",
+      "toastOcrFailed": "OCR fehlgeschlagen — Relic-Belohnungen konnten nicht gelesen werden"
     },
     "subscription": {
       "active": "Aktiv",

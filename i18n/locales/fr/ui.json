@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Objets non reconnus — le catalogue est-il encore en cours de chargement ?",
       "toastNoScreen": "Aucun écran de récompense de relique détecté",
       "toastOcrTimeout": "Délai OCR dépassé — récompenses de relique non reconnues",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "Plugin OCR indisponible — réinstallez OwnFrame ou changez de canal",
+      "toastOcrFailed": "Échec OCR — récompenses de relique illisibles"
     },
     "subscription": {
       "active": "Actif",

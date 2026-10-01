@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "アイテムを認識できません — カタログを読み込み中かもしれません",
       "toastNoScreen": "レリック報酬の画面が検出されません",
       "toastOcrTimeout": "OCRタイムアウト — レリック報酬を認識できませんでした",
-      "unknownSetName": "セット"
+      "unknownSetName": "セット",
+      "toastOcrUnavailable": "OCRプラグインが利用できません — OwnFrameを再インストールするかチャンネルを切り替えてください",
+      "toastOcrFailed": "OCRに失敗 — レリック報酬を読み取れませんでした"
     },
     "subscription": {
       "active": "有効",

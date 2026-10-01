@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Öğeler tanınamadı — katalog henüz yükleniyor olabilir",
       "toastNoScreen": "Kalıntı ödülü ekranı algılanmadı",
       "toastOcrTimeout": "OCR zaman aşımı — kalıntı ödülleri tanınamadı",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "OCR eklentisi kullanılamıyor — OwnFrame’i yeniden yükleyin veya kanal değiştirin",
+      "toastOcrFailed": "OCR başarısız — kalıntı ödülleri okunamadı"
     },
     "subscription": {
       "active": "Aktif",

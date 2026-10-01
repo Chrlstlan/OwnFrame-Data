@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Oggetti non riconosciuti — forse il catalogo è ancora in caricamento",
       "toastNoScreen": "Nessuna schermata di ricompense reliquia rilevata",
       "toastOcrTimeout": "Timeout OCR — ricompense reliquia non riconosciute",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "Plugin OCR non disponibile — reinstalla OwnFrame o cambia canale",
+      "toastOcrFailed": "OCR non riuscito — ricompense reliquia non leggibili"
     },
     "subscription": {
       "active": "Attivo",

@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Objetos no reconocidos, ¿sigue cargando el catálogo?",
       "toastNoScreen": "No se detectó ninguna pantalla de recompensa de reliquia",
       "toastOcrTimeout": "Tiempo de espera de OCR agotado: recompensas de reliquia no reconocidas",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "Complemento OCR no disponible — reinstala OwnFrame o cambia de canal",
+      "toastOcrFailed": "OCR falló — no se pudieron leer las recompensas de reliquia"
     },
     "subscription": {
       "active": "Activo",

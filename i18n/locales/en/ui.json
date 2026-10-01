@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "Items not recognized — is the catalog still loading?",
       "toastNoScreen": "No relic reward screen detected",
       "toastOcrTimeout": "OCR timeout — relic rewards not recognized",
-      "unknownSetName": "Set"
+      "unknownSetName": "Set",
+      "toastOcrUnavailable": "OCR plugin unavailable — reinstall OwnFrame or switch Overwolf channel",
+      "toastOcrFailed": "OCR failed — relic rewards could not be read"
     },
     "subscription": {
       "active": "Active",

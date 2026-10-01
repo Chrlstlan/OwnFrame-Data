@@ -996,7 +996,9 @@
       "toastItemsNotRecognized": "未识别到物品——目录可能还在加载",
       "toastNoScreen": "未识别到遗物奖励界面",
       "toastOcrTimeout": "OCR 超时——未识别到遗物奖励",
-      "unknownSetName": "套装"
+      "unknownSetName": "套装",
+      "toastOcrUnavailable": "OCR 插件不可用 — 请重新安装 OwnFrame 或切换频道",
+      "toastOcrFailed": "OCR 失败 — 无法读取遗物奖励"
     },
     "subscription": {
       "active": "已激活",
