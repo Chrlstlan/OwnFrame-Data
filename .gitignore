@@ -21,3 +21,7 @@ yarn-error.log*
 
 .DS_Store
 Thumbs.db
+# Large generated catalogs (local/CI release assets — not committed as git blobs)
+data/All*.json
+data/indices*.json
+
