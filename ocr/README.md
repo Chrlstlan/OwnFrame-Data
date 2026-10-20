@@ -12,15 +12,22 @@ user uninstalls the app.
 | `theme_classifier.onnx` | MobileNetV2 UI-theme classifier |
 | `tessdata/eng.traineddata` | Tesseract English LSTM model (app-validated bytes) |
 | `tessdata/deu.traineddata` | Tesseract German LSTM model |
-| `manifest.json` | Paths + SHA-256 checksums the app verifies |
+| `manifest.json` | Paths + SHA-256 checksums (documentation; the app pins its own copy) |
+
+The app downloads these files from one **fixed commit** of this repo and
+checks them against SHA-256 values **compiled into its OCR DLL**
+(`OwnFrame-App/native/OwnFrameOcr/OcrAssetInstaller.cs`). A push to `main`
+alone therefore never changes what installed apps load.
 
 ## Updating a model
 
 1. Replace the file(s).
 2. Recompute SHA-256 and `bytes` in `manifest.json`.
-3. Commit + push to `main` (or bump via the usual OwnFrame sync flow).
-4. Existing installs re-download on the next warm-up when the checksum no
-   longer matches the cache.
+3. Commit + push (or bump via the usual OwnFrame sync flow).
+4. In OwnFrame-App, set `AssetCommit` in `OcrAssetInstaller.cs` to that
+   commit and update the hashes there, then ship an app update. Installs
+   re-download on the next warm-up once the cached checksum no longer
+   matches.
 
 Do not edit these binaries by hand without re-running the app OCR eval
 corpus (`npm run eval:ocr` in OwnFrame-App).

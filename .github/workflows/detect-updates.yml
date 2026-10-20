@@ -1,0 +1,67 @@
+# Detects items a Warframe update added (scripts/detect-updates.mjs diffs DE's Public Export
+# against data/known-items.json) and opens a pull request with a new data/updates.json entry.
+# The entry's version and name are "TODO": set them (titles/dates: warframe.com/updates) — and
+# move hotfix items into their main update's entry — then merge. Your edit triggers the
+# validate workflow, whose schema rejects any remaining "TODO".
+#
+# One-time repo setting: Settings → Actions → General → "Allow GitHub Actions to create and
+# approve pull requests".
+
+name: detect-updates
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: detect-updates
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # An unnamed detection PR is still open — finish that one first instead of stacking PRs.
+      - name: Check for an open detection pull request
+        id: open
+        run: |
+          count=$(gh pr list --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("updates/"))] | length')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Detect new items
+        id: detect
+        if: steps.open.outputs.count == '0'
+        run: node scripts/detect-updates.mjs
+
+      - name: Open pull request
+        if: steps.detect.outputs.changed == 'true'
+        run: |
+          branch="updates/$(date -u +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data/updates.json data/known-items.json
+          git commit -m "Detect ${{ steps.detect.outputs.new_items }} new item(s) from DE's Public Export"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "New items detected — set update version and name" \
+            --body "The Public Export added ${{ steps.detect.outputs.new_items }} item(s); they are in a new entry at the top of \`data/updates.json\`.
+
+          1. Set \`version\` (e.g. \`44.0\`) and \`name\` (e.g. \`Update 44: Iceblade of Narin\`) — titles and dates: https://www.warframe.com/updates
+          2. Hotfix items: move them into their main update's entry and delete the new one.
+          3. Items DE shipped early (not released yet): delete them from the entry — they stay in \`known-items.json\`, so re-add them by hand once they release.
+          4. Merge once the validate check is green (it rejects any remaining \`TODO\`)."

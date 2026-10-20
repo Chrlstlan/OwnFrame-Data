@@ -11,6 +11,8 @@ pipeline.
 | `polarity.schema.json` | `data/polarities.json` |
 | `ducats.schema.json` | `data/ducats.json` |
 | `ui.schema.json` | `i18n/locales/<lang>/ui.json` |
+| `updates.schema.json` | `data/updates.json` |
+| `known-items.schema.json` | `data/known-items.json` |
 | `item.schema.json` | `data/items.json` (added when the catalog lands) |
 
 Schemas also serve as the format documentation — each field carries a

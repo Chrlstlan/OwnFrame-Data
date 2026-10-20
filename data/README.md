@@ -9,6 +9,8 @@ The master catalog and curated datasets.
 | `drops/` | yes | no |
 | `polarities.json` | no — hand-curated | yes |
 | `ducats.json` | no — hand-curated | yes |
+| `updates.json` | items: yes (`scripts/detect-updates.mjs`); version, name, date: by hand | names/dates yes; item lists via issue |
+| `known-items.json` | yes (`scripts/detect-updates.mjs`) | no |
 
 ## Local wiki / web catalog
 

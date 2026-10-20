@@ -13,8 +13,9 @@ attribution.
 
 This repository is being set up. The layout below is the target structure;
 `data/` and `i18n/` are being populated by the (private) OwnFrame data
-pipeline. Generated files land here; the pipeline itself is not part of this
-repository.
+pipeline. Generated files land here; the catalog pipeline itself is not part
+of this repository. The one exception is the small update detector in
+`scripts/` (see below), which runs here as a GitHub Action.
 
 ## Layout
 
@@ -24,11 +25,29 @@ data/            Master catalog (English names, all structural data)
   drops/         Drop tables: missions, relics, enemies
   polarities.json  Community-corrected mod polarities
   ducats.json    Ducat values
+  updates.json   Items each Warframe update added (the apps' "New" strip)
+  known-items.json  Detector baseline: every uniqueName seen so far
 i18n/            App and web UI strings per language (community-editable)
   locales/       One directory per language, each with a ui.json
 schema/          JSON Schemas documenting every data file's format
+scripts/         detect-updates.mjs — finds new items in DE's Public Export
 ocr/             OCR runtime binaries for the Overwolf app (ONNX + tessdata);
                  downloaded on first warm-up — see ocr/README.md
+```
+
+## Update detection
+
+`.github/workflows/detect-updates.yml` runs `scripts/detect-updates.mjs`
+every 6 hours (or by hand from the Actions tab). When DE's Public Export adds
+Warframes, weapons or companions, it opens a pull request with a new entry at
+the top of `data/updates.json` whose `version` and `name` are `TODO`. Set
+them (titles and dates: <https://www.warframe.com/updates>), move hotfix items
+into their main update's entry, and merge — the validate check rejects any
+remaining `TODO`. To run it locally instead:
+
+```bash
+node scripts/detect-updates.mjs              # detect and write data/
+node scripts/detect-updates.mjs --baseline   # rebuild known-items.json only
 ```
 ## How the data is shaped
 

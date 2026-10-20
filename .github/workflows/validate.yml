@@ -27,7 +27,11 @@ jobs:
       - name: Validate curated datasets
         run: |
           npx --yes ajv-cli@5 validate -s schema/polarity.schema.json -d "data/polarities.json" --spec=draft7 --errors=text
-          npx --yes ajv-cli@5 validate -s schema/ducats.schema.json -d "data/ducats.json" --spec=draft7 --errors=text
+
+      - name: Validate update data
+        run: |
+          npx --yes ajv-cli@5 validate -s schema/updates.schema.json -d "data/updates.json" --spec=draft7 --errors=text
+          npx --yes ajv-cli@5 validate -s schema/known-items.schema.json -d "data/known-items.json" --spec=draft7 --errors=text
 
       - name: Check key parity across languages
         run: node -e "

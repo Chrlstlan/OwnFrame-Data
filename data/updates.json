@@ -1,0 +1,30 @@
+{
+  "_comment": "Items each Warframe update added, newest first — feeds the apps' \"New\" strip and the update stamp on published builds. Item lists are detected by scripts/detect-updates.mjs from DE's Public Export; version, name and date are set by hand in the detection pull request (titles and dates from warframe.com/updates).",
+  "_source": {
+    "ExportWarframes_en.json": "00_AIDVHigS64IrZQVY2GdWfg",
+    "ExportWeapons_en.json": "00_RcEdsq5S+l61BkfnQuzJFw",
+    "ExportSentinels_en.json": "00_8iGr2T9MTskXt5zeKEVNmQ"
+  },
+  "updates": [
+    {
+      "version": "44.0",
+      "name": "Update 44: Iceblade of Narin",
+      "date": "2026-09-23",
+      "items": [
+        "/Lotus/Powersuits/Duelist/Duelist",
+        "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow",
+        "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols"
+      ]
+    },
+    {
+      "version": "43.0",
+      "name": "Update 43: Jade Shadows: Constellations",
+      "date": "2026-06-17",
+      "items": [
+        "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+        "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
+        "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon"
+      ]
+    }
+  ]
+}
