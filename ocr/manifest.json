@@ -11,8 +11,8 @@
     {
       "id": "theme_classifier",
       "path": "theme_classifier.onnx",
-      "sha256": "423f31649e1fce61832979289fa11c308e966af61e95003028e66b80f640d334",
-      "bytes": 8965631
+      "sha256": "97968369f2eb0fc681ba8f01e001299d7803cba04daeaf268eaf18cb2b30a088",
+      "bytes": 8970756
     },
     {
       "id": "tessdata_eng",
