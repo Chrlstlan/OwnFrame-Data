@@ -9,6 +9,12 @@
       "bytes": 12265206
     },
     {
+      "id": "screen_detector",
+      "path": "screen_detector.onnx",
+      "sha256": "86cb096ead5e0738cf6eef3d11328ed1fb6277a6b0568ad243f5749a8f4324a9",
+      "bytes": 12245693
+    },
+    {
       "id": "theme_classifier",
       "path": "theme_classifier.onnx",
       "sha256": "97968369f2eb0fc681ba8f01e001299d7803cba04daeaf268eaf18cb2b30a088",
