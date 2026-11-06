@@ -41,8 +41,8 @@ ocr/             OCR runtime binaries for the Overwolf app (ONNX + tessdata);
 every 6 hours (or by hand from the Actions tab). When DE's Public Export adds
 Warframes, weapons or companions, it opens a pull request with a new entry at
 the top of `data/updates.json` whose `version` and `name` are `TODO`. Set
-them (titles and dates: <https://www.warframe.com/updates>), move hotfix items
-into their main update's entry, and merge — the validate check rejects any
+them (titles and dates: <https://www.warframe.com/updates>), give a hotfix that
+added items its own entry (e.g. `43.0.7`), and merge — the validate check rejects any
 remaining `TODO`. To run it locally instead:
 
 ```bash

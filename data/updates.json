@@ -13,7 +13,18 @@
       "items": [
         "/Lotus/Powersuits/Duelist/Duelist",
         "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow",
-        "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols"
+        "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
+        "/Lotus/Powersuits/Geode/CitrinePrime",
+        "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun",
+        "/Lotus/Weapons/Tenno/Archwing/Melee/PrimeCorufell/PrimeCorufellScytheWeapon"
+      ]
+    },
+    {
+      "version": "43.0.7",
+      "name": "Mesa Heirloom: Hotfix 43.0.7",
+      "date": "2026-07-11",
+      "items": [
+        "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun"
       ]
     },
     {
@@ -23,7 +34,10 @@
       "items": [
         "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
         "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
-        "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon"
+        "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon",
+        "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+        "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
+        "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon"
       ]
     }
   ]

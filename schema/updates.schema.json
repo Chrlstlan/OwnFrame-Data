@@ -21,7 +21,7 @@
         "additionalProperties": false,
         "properties": {
           "version": {
-            "description": "Main update version as DE numbers it, e.g. \"44.0\". Hotfix items belong to their main update's entry.",
+            "description": "Version as DE numbers it: a main update (\"44.0\") or, for a hotfix that added items, the hotfix itself (\"43.0.7\").",
             "type": "string",
             "pattern": "^[0-9]+(\\.[0-9]+)*$"
           },
