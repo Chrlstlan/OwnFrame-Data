@@ -11,8 +11,8 @@
     {
       "id": "screen_detector",
       "path": "screen_detector.onnx",
-      "sha256": "86cb096ead5e0738cf6eef3d11328ed1fb6277a6b0568ad243f5749a8f4324a9",
-      "bytes": 12245693
+      "sha256": "d23f3f30d0453209a58cde8b15fcecc154e2b0c586216d27e75b0b63b3c75cf6",
+      "bytes": 12246492
     },
     {
       "id": "theme_classifier",

@@ -9,7 +9,7 @@ user uninstalls the app.
 | File | Purpose |
 | --- | --- |
 | `reward_tile.onnx` | YOLOv8 tile detector |
-| `screen_detector.onnx` | YOLOv8 screen detector: relic selection screen shapes (button, emblem, selected relic, squad countdown, era icons); app versions with it pin their own commit |
+| `screen_detector.onnx` | YOLOv8 screen detector: relic selection screen shapes (button, emblem, selected relic, squad countdown, era icons, reward tiles); app versions with it pin their own commit |
 | `theme_classifier.onnx` | MobileNetV2 UI-theme classifier (20 themes, incl. Drippy) |
 | `tessdata/eng.traineddata` | Tesseract English LSTM model — downloaded by app versions up to 0.4.6 only |
 | `tessdata/deu.traineddata` | Tesseract German LSTM model — downloaded by app versions up to 0.4.6 only |
