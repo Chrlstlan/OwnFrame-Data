@@ -11,7 +11,7 @@
     {
       "id": "screen_detector",
       "path": "screen_detector.onnx",
-      "sha256": "d23f3f30d0453209a58cde8b15fcecc154e2b0c586216d27e75b0b63b3c75cf6",
+      "sha256": "81c0f30858b61006547067e29377961614a3eff9dcfe56ee23722e214acf38cd",
       "bytes": 12246492
     },
     {
