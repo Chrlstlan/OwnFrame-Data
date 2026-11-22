@@ -1,0 +1,368 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Converted from an earlier vendor list on 2026-10-25, prices and full stock added 2026-11-08 from in-game notes. Lavos ranks from the earlier vendor list. Cedo parts are catalog components (DE has no separate part blueprints).",
+  "id": "father",
+  "name": "Father",
+  "syndicate": "entrati",
+  "location": {
+    "hub": "necralisk",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartEngineItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartSystemsItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartWeaponPodItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBladeBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/InfTransformClawsBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponGloveBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfPrimaryHandle/InfModularPrimaryHandleBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfSecondaryHandle/InfModularSecondaryHandleBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallCritStatBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigCritStatBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfUziWeaponBarrelBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/InfUziBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfUziWeaponReceiverBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/LavosBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechPistolBarrelBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/ThanotechPistolBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechPistolReceiverBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/LavosChassisBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/LavosHelmetBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/LavosSystemsBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleBarrelBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/ThanotechRifleBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleReceiverBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ThanotechRifleStockBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/Event/ParisHealOnStatusMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnAlchemistShotgunBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/Event/AkbroncoViralDamageMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/Event/SomaCritChanceOnHitMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/Event/AkstilettoEfficiencyWhileAirborneMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunBarrel",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunReceiver",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunStock",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    }
+  ]
+}

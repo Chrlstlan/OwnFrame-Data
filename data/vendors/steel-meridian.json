@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-25, list not complete yet. New entries may use \"itemName\" (English name) instead of \"item\" — node scripts/check-references.mjs --resolve fills in the uniqueName.",
+  "id": "steel-meridian",
+  "name": "Steel Meridian",
+  "syndicate": "steel-meridian",
+  "location": {
+    "hub": "relay"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianA",
+      "price": [{ "currency": "standing", "amount": 1000 }],
+      "requires": { "rank": 1 }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianB",
+      "price": [{ "currency": "standing", "amount": 2500 }],
+      "requires": { "rank": 1 }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Components/RollerBallBlueprint",
+      "quantity": 5,
+      "price": [{ "currency": "standing", "amount": 2500 }],
+      "requires": { "rank": 1 }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianC",
+      "price": [{ "currency": "standing", "amount": 5000 }],
+      "requires": { "rank": 1 }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianD",
+      "price": [{ "currency": "standing", "amount": 7500 }],
+      "requires": { "rank": 1 }
+    },
+    {
+      "itemName": "Abyssal Beacon",
+      "price": [{ "currency": "standing", "amount": 5000 }],
+      "requires": { "rank": 2 }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchCannonStock",
+      "price": [{ "currency": "standing", "amount": 20000 }],
+      "requires": { "rank": 2 }
+    }
+  ]
+}

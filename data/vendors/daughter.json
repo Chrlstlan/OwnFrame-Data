@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-08 from in-game notes. Rank requirements not recorded unless noted.",
+  "id": "daughter",
+  "name": "Daughter",
+  "syndicate": "entrati",
+  "location": {
+    "hub": "necralisk",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonDBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonCBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonEBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedUncommonABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridUncommonABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridUncommonBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinUncommonABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinRareABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearB",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitB",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridRareABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedRareABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitB",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinLegendaryABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishAPartItem",
+      "quantity": 10,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 7
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishDPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 15
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishCPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 10
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishBPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 6
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishAPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 9
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericInfestedFishPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 9
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    }
+  ]
+}

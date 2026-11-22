@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "common.schema.json",
+  "title": "OwnFrame shared definitions",
+  "description": "Building blocks shared by vendor.schema.json and syndicate.schema.json. Not a data file schema on its own — validators load it alongside the others (ajv-cli: -r schema/common.schema.json).",
+  "definitions": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable kebab-case id; equals the file name without .json and doubles as wiki page slug."
+    },
+    "uniqueName": {
+      "type": "string",
+      "pattern": "^/Lotus/",
+      "description": "Catalog uniqueName (locale-stable); names, images and translations come from the catalog."
+    },
+    "itemName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "English catalog name, written while filling in instead of a uniqueName. `node scripts/check-references.mjs --resolve` replaces it with the uniqueName when the name is unambiguous."
+    },
+    "hub": {
+      "enum": [
+        "relay",
+        "orbiter",
+        "dojo",
+        "cetus",
+        "fortuna",
+        "necralisk",
+        "chrysalith",
+        "sanctum-anatomica",
+        "hollvania",
+        "drifters-camp",
+        "dormizone",
+        "iron-wake",
+        "maroos-bazaar",
+        "other"
+      ],
+      "description": "Place in the game world. The apps translate hub names; use \"other\" plus a detail text when none fits."
+    },
+    "cost": {
+      "type": "object",
+      "required": ["amount"],
+      "anyOf": [{ "required": ["currency"] }, { "required": ["itemName"] }],
+      "additionalProperties": false,
+      "properties": {
+        "currency": {
+          "type": "string",
+          "pattern": "^(credits|platinum|standing|ducats|/Lotus/.+)$",
+          "description": "credits, platinum, standing (of the owning syndicate), ducats, or the uniqueName of the resource, token or item handed over."
+        },
+        "itemName": {
+          "$ref": "#/definitions/itemName",
+          "description": "Stand-in for currency while filling in: the English name of the resource or item handed over."
+        },
+        "amount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "verified": {
+      "type": "object",
+      "required": ["date"],
+      "additionalProperties": false,
+      "description": "When the entry was last checked in game — shown as \"as of\" on the wiki page.",
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "gameVersion": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Game update the check was made on, e.g. \"Update 44\"."
+        }
+      }
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short English text."
+    }
+  }
+}

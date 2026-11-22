@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-25. Rank requirements still unknown.",
+  "id": "amir-beckett",
+  "name": "Amir Beckett",
+  "syndicate": "the-hex",
+  "location": {
+    "hub": "hollvania"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/Cyte09Blueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/Cyte09ChassisBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/Cyte09HelmetBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/Cyte09SystemsBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    }
+  ]
+}

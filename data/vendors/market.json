@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "In-game Market (Orbiter). Only blueprints for credits — the Foundry needs those; finished items for platinum are left out. Entered 2026-10-25.",
+  "id": "market",
+  "name": "Market",
+  "location": {
+    "hub": "orbiter"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/AFurisBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/AkBoltoBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/DualBroncosBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnoBladedPistolsBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 20000
+        }
+      ]
+    }
+  ]
+}

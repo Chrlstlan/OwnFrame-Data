@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Converted from an earlier vendor list on 2026-10-25. Prices not recorded yet — add them from the game.",
+  "id": "little-duck",
+  "name": "Little Duck",
+  "syndicate": "vox-solaris",
+  "location": {
+    "hub": "fortuna",
+    "planet": "Venus"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PacifistBlueprint",
+      "requires": {
+        "rankTitle": "Agent"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PacifistChassisBlueprint",
+      "requires": {
+        "rankTitle": "Hand"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PacifistHelmetBlueprint",
+      "requires": {
+        "rankTitle": "Hand"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PacifistSystemsBlueprint",
+      "requires": {
+        "rankTitle": "Hand"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/IronframeBlueprint",
+      "requires": {
+        "rankTitle": "Agent"
+      }
+    }
+  ]
+}

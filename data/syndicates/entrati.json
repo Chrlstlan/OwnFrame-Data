@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schema/syndicate.schema.json",
+  "_comment": "Standing trades entered 2026-10-25, ranks 2026-11-08 from in-game notes. The in-game notes list the rank-up cost on the Friend line; it is stored as the cost of reaching Family. Still open: standing caps of ranks 0-3 and 5, other rank-up costs, verified.",
+  "id": "entrati",
+  "name": "Entrati",
+  "group": "open-world",
+  "hub": "necralisk",
+  "ranks": [
+    {
+      "rank": 0,
+      "title": "Neutral"
+    },
+    {
+      "rank": 1,
+      "title": "Stranger"
+    },
+    {
+      "rank": 2,
+      "title": "Acquaintance"
+    },
+    {
+      "rank": 3,
+      "title": "Associate"
+    },
+    {
+      "rank": 4,
+      "title": "Friend",
+      "maxStanding": 99000
+    },
+    {
+      "rank": 5,
+      "title": "Family",
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/Deimos/SeriglassShard",
+            "amount": 1
+          },
+          {
+            "currency": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
+            "amount": 1
+          },
+          {
+            "currency": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
+            "amount": 1
+          }
+        ]
+      }
+    }
+  ],
+  "standingTrades": [
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
+      "standing": 100
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
+      "standing": 500
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonC",
+      "standing": 500
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
+      "standing": 1000
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonA",
+      "standing": 500
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/EntratiFragmentRareA",
+      "standing": 3000
+    }
+  ]
+}

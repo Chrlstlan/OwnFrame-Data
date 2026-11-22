@@ -1,0 +1,406 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-08 from in-game notes. Rank requirements not recorded unless noted. Refinement blueprints yield several units per craft (x20, x10 …); the offer is one blueprint. Steflos Receiver added 2026-11-08 (confirmed in game). Relic Pack is not in the catalog yet.",
+  "id": "otak",
+  "name": "Otak",
+  "syndicate": "entrati",
+  "location": {
+    "hub": "necralisk",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonOreAAlloyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonGemACutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonGemBCutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonOreBAlloyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosUncommonOreAAlloyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosUncommonGemACutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "itemName": "Relic Pack",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosRareGemACutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosRareOreAAlloyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosEidolonGemBCutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 8000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Prospecting/DeimosEidolonGemACutBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 8000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemACutItem",
+      "quantity": 10,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 15
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBCutItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 7
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemACutItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 6
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GeodeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 500
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GeodeChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 350
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 350
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GeodeHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 350
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 350
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GeodeSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 350
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 350
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/GunScytheBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 500
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheBlade",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 250
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheReceiver",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 250
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunScytheHandle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 250
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnoLotusPodShotgunBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 300
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnoLotusPodShotgunBarrel",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnoLotusPodShotgunReceiver",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnoLotusPodShotgunStock",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamagePerAmmoOnReload",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/DamageResistanceStacksOverTime",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/TarotCardCitrine",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 100
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/StoreItems/AvatarImages/Warframes/CitrineActionGlyph",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 100
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 1000
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 1000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-25 (German names, resolved via the German catalog). Location and remaining offers still to fill.",
+  "id": "cephalon-melica",
+  "name": "Cephalon Melica",
+  "location": {
+    "hub": "other"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NarinBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NarinChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 130
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NarinHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 130
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NarinSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 130
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/DuelistBowBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowUpperLimbBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowStringBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowGripBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistBowLowerLimbBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/DuelistPistolsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsBarrelBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsReceiverBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuelistPistolsLinkBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/FrozenSigil",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/NarinTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Effects/DuelistSpiritEphemera",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/TarotCardNarin",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Liset/DuelistHoodOrnament",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+          "amount": 500
+        }
+      ]
+    }
+  ]
+}

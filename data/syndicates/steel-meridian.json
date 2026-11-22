@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/syndicate.schema.json",
+  "_comment": "Ranks and alignments entered 2026-10-25. Still open: maxStanding and rankUp per rank, standingSources, verified.",
+  "id": "steel-meridian",
+  "name": "Steel Meridian",
+  "group": "faction",
+  "hub": "relay",
+  "alignments": {
+    "red-veil": "allied",
+    "new-loka": "opposed",
+    "the-perrin-sequence": "enemy"
+  },
+  "ranks": [
+    { "rank": -2, "title": "Enemy" },
+    { "rank": -1, "title": "Outcast" },
+    { "rank": 0, "title": "Neutral" },
+    { "rank": 1, "title": "Brave" },
+    { "rank": 2, "title": "Valiant" },
+    { "rank": 3, "title": "Defender" },
+    { "rank": 4, "title": "Protector" },
+    { "rank": 5, "title": "General" }
+  ]
+}

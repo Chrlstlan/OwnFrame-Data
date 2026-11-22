@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Converted from an earlier vendor list on 2026-10-25. Prices not recorded yet — add them from the game.",
+  "id": "chipper",
+  "name": "Chipper",
+  "syndicate": "kahls-garrison",
+  "location": {
+    "hub": "drifters-camp"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxBlueprint",
+      "requires": {
+        "rankTitle": "Home"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisBlueprint",
+      "requires": {
+        "rankTitle": "Settlement"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxHelmetBlueprint",
+      "requires": {
+        "rankTitle": "Fort"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxSystemsBlueprint",
+      "requires": {
+        "rankTitle": "Encampment"
+      }
+    }
+  ]
+}

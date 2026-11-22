@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Converted from an earlier vendor list on 2026-10-25. Prices not recorded yet — add them from the game.",
+  "id": "loid",
+  "name": "Loid",
+  "syndicate": "necraloid",
+  "location": {
+    "hub": "necralisk",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Mechs/ThanotechBlueprint",
+      "requires": {
+        "rankTitle": "Clearance Odima"
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Converted from an earlier vendor list on 2026-10-25. Prices not recorded yet — add them from the game.",
+  "id": "cephalon-simaris",
+  "name": "Cephalon Simaris",
+  "syndicate": "cephalon-simaris",
+  "location": {
+    "hub": "relay"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerBlueprint",
+      "requires": {
+        "quest": "The Jordas Precept"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBlueprint",
+      "requires": {
+        "quest": "The New Strange"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ChromaChassisBlueprint",
+      "requires": {
+        "condition": "Complete the Neptune Junction"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ChromaHelmetBlueprint",
+      "requires": {
+        "condition": "Complete the Uranus Junction"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ChromaSystemsBlueprint",
+      "requires": {
+        "condition": "Complete the Pluto Junction"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GlassBlueprint",
+      "requires": {
+        "quest": "Saya's Vigil"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/GarudaBlueprint",
+      "requires": {
+        "quest": "Vox Solaris"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PriestBlueprint",
+      "requires": {
+        "quest": "Chains of Harrow"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MummyBlueprint",
+      "requires": {
+        "quest": "Sands of Inaros"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MummyChassisBlueprint",
+      "requires": {
+        "quest": "Sands of Inaros"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MummyHelmetBlueprint",
+      "requires": {
+        "quest": "Sands of Inaros"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MummySystemsBlueprint",
+      "requires": {
+        "quest": "Sands of Inaros"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MagicianChassisBlueprint",
+      "requires": {
+        "quest": "The Limbo Theorem"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MagicianHelmetBlueprint",
+      "requires": {
+        "quest": "The Limbo Theorem"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/MagicianSystemsBlueprint",
+      "requires": {
+        "quest": "The Limbo Theorem"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinChassisBlueprint",
+      "requires": {
+        "quest": "Hidden Messages"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinHelmetBlueprint",
+      "requires": {
+        "quest": "Hidden Messages"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinSystemsBlueprint",
+      "requires": {
+        "quest": "Hidden Messages"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NidusBlueprint",
+      "requires": {
+        "quest": "The Glast Gambit"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaBlueprint",
+      "requires": {
+        "quest": "Octavia's Anthem"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ProteaBlueprint",
+      "requires": {
+        "quest": "The Deadlock Protocol"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/RevenantBlueprint",
+      "requires": {
+        "quest": "Mask of the Revenant"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/WraithBlueprint",
+      "requires": {
+        "quest": "Call of the Tempestarii"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/FairyBlueprint",
+      "requires": {
+        "quest": "The Silver Grove"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/FairyChassisBlueprint",
+      "requires": {
+        "quest": "The Silver Grove"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/FairyHelmetBlueprint",
+      "requires": {
+        "quest": "The Silver Grove"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/FairySystemsBlueprint",
+      "requires": {
+        "quest": "The Silver Grove"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/BrokenFrameBlueprint",
+      "requires": {
+        "quest": "Heart of Deimos"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/YareliBlueprint",
+      "requires": {
+        "quest": "The Waverider"
+      }
+    }
+  ]
+}

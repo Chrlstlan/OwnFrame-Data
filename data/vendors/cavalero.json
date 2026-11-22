@@ -1,0 +1,266 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-28. Required ranks still unknown.",
+  "id": "cavalero",
+  "name": "Cavalero",
+  "syndicate": "the-holdfasts",
+  "location": {
+    "hub": "chrysalith",
+    "planet": "Zariman"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanHeavyPistolBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnRollCritChanceOnHeadshot",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnDeathInvulnerability",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanDaggerWeaponBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankOne",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnOperatorAbilityPowerStrength",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnHeatProc",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanSemiAutoRifleBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 6000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankTwo",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnStatusProcBonusDamage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnEnergyDepletedRegenEnergy",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanPumpShotgunBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 8000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankThree",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnVoidSlingAmpAmmoEfficiency",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 8500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/Evolving/ZarimanTonfaWeaponBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 9000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankFour",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 8500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnOvershieldCritChance",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/EnergyOnGhostDissipate",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeSkins/VoidAngelEphemeraABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeSkins/VoidAngelEphemeraBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankFive",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/WeaponAmpArcaneUnlocker",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    }
+  ]
+}

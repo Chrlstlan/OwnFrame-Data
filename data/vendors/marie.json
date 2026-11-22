@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-08 from in-game notes. Rank requirements not recorded unless noted. Browse Items is a weekly random selection; the list is what was offered that week, not the full pool. Zid-An mods and the Tektolyst Artifacts are not in the catalog yet.",
+  "id": "marie",
+  "name": "Marie",
+  "location": {
+    "hub": "sanctum-anatomica",
+    "planet": "Deimos",
+    "detail": "La Cathédrale"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/Mods/Antiques/VoidSlingEfficiency",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+          "amount": 130
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+          "amount": 300
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Antiques/DamageWhileInvisible",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+          "amount": 60
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+          "amount": 120
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "itemName": "Zid-An Osbok",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+          "amount": 690
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+          "amount": 270
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+      "quantity": 10,
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+          "amount": 125
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+          "amount": 260
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+      "quantity": 15,
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+          "amount": 744
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+          "amount": 108
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "itemName": "Zid-An Uskos",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+          "amount": 670
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+          "amount": 125
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "itemName": "Zid-An Asheir",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+          "amount": 620
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+          "amount": 250
+        }
+      ],
+      "note": "Weekly random selection"
+    },
+    {
+      "itemName": "Lorak",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "itemName": "Vexoric",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "itemName": "Thara",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "itemName": "Cogron",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "itemName": "Nidri",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+          "amount": 150
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 150
+        }
+      ]
+    }
+  ]
+}

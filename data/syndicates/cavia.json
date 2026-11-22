@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schema/syndicate.schema.json",
+  "_comment": "Ranks and standing trades entered 2026-11-08 from in-game notes. Still open: standing caps of ranks 0-4, rank-up costs, standing sources, verified.",
+  "id": "cavia",
+  "name": "Cavia",
+  "group": "open-world",
+  "hub": "sanctum-anatomica",
+  "ranks": [
+    {
+      "rank": 0,
+      "title": "Neutral"
+    },
+    {
+      "rank": 1,
+      "title": "Assistant"
+    },
+    {
+      "rank": 2,
+      "title": "Researcher"
+    },
+    {
+      "rank": 3,
+      "title": "Colleague"
+    },
+    {
+      "rank": 4,
+      "title": "Scholar"
+    },
+    {
+      "rank": 5,
+      "title": "Illuminate",
+      "maxStanding": 132000
+    }
+  ],
+  "standingTrades": [
+    {
+      "item": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare",
+      "standing": 2000,
+      "vendor": "loid-sanctum-anatomica"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+      "standing": 1000,
+      "vendor": "loid-sanctum-anatomica"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon",
+      "standing": 500,
+      "vendor": "loid-sanctum-anatomica"
+    },
+    {
+      "item": "/Lotus/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",
+      "standing": 1000,
+      "vendor": "loid-sanctum-anatomica"
+    }
+  ]
+}

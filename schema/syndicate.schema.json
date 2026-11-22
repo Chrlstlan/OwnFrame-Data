@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "syndicate.schema.json",
+  "title": "OwnFrame syndicate",
+  "description": "Validates one file in data/syndicates/: a single syndicate — its ranks, what each rank-up costs, its alignments and how standing is earned. One file per syndicate, named <id>.json = one wiki page. What the syndicate sells lives in data/vendors/ (vendors point here via `syndicate`), so offers are never kept twice. Alignment percentages are fixed by the game (allied +50 %, opposed -50 %, enemy -100 %) and live in the apps, not here. Write entries from what the game shows — do not copy tables from other wikis.",
+  "type": "object",
+  "required": ["id", "name", "group"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Optional relative path to this schema, for editor autocompletion."
+    },
+    "_comment": {
+      "type": "string"
+    },
+    "id": { "$ref": "common.schema.json#/definitions/id" },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Syndicate name as shown in game (English), e.g. \"Steel Meridian\"."
+    },
+    "group": {
+      "enum": ["faction", "open-world", "other"],
+      "description": "faction: the six Relay syndicates with alignments. open-world: syndicates of a hub (Cetus, Fortuna, Necralisk, …). other: Simaris, Conclave, Nightwave, Operational Supply."
+    },
+    "hub": { "$ref": "common.schema.json#/definitions/hub" },
+    "alignments": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Relation to other faction syndicates, keyed by their id. Standing earned here also changes theirs by the fixed game percentage. Must be mirrored in the other syndicate's file.",
+      "propertyNames": { "$ref": "common.schema.json#/definitions/id" },
+      "additionalProperties": { "enum": ["allied", "opposed", "enemy"] }
+    },
+    "ranks": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/rank" },
+      "description": "Every rank in ascending order, including negative ranks of faction syndicates."
+    },
+    "standingSources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/definitions/text" },
+      "description": "How standing is earned, in short English lines, e.g. \"Wear the syndicate sigil\", \"Cetus bounties\"."
+    },
+    "standingTrades": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/standingTrade" },
+      "description": "Items handed in for standing (e.g. Entrati family tokens), so the wiki can list them with localized names."
+    },
+    "note": { "$ref": "common.schema.json#/definitions/text" },
+    "verified": { "$ref": "common.schema.json#/definitions/verified" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "group": { "const": "faction" } } },
+      "else": { "not": { "required": ["alignments"] } }
+    }
+  ],
+  "definitions": {
+    "standingTrade": {
+      "type": "object",
+      "required": ["standing"],
+      "anyOf": [{ "required": ["item"] }, { "required": ["itemName"] }],
+      "additionalProperties": false,
+      "properties": {
+        "item": {
+          "$ref": "common.schema.json#/definitions/uniqueName",
+          "description": "The item handed in (one unit)."
+        },
+        "itemName": {
+          "$ref": "common.schema.json#/definitions/itemName",
+          "description": "Stand-in for item while filling in: the English name as shown in game."
+        },
+        "standing": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Standing gained per unit handed in."
+        },
+        "vendor": {
+          "$ref": "common.schema.json#/definitions/id",
+          "description": "id of the file in data/vendors/ that takes the trade-in, when known."
+        }
+      }
+    },
+    "rank": {
+      "type": "object",
+      "required": ["rank", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "rank": {
+          "type": "integer",
+          "minimum": -2,
+          "maximum": 100
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Rank title as shown in game (English), e.g. \"Neutral\", \"Agent\"."
+        },
+        "maxStanding": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Standing cap while at this rank."
+        },
+        "rankUp": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": false,
+          "description": "What it takes to reach this rank from the one below.",
+          "properties": {
+            "cost": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "common.schema.json#/definitions/cost" },
+              "description": "Everything handed over together: credits, standing, resources or items (by uniqueName)."
+            },
+            "tasks": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "common.schema.json#/definitions/text" },
+              "description": "Non-item requirements, in short English lines, e.g. \"Complete a Narmer bounty\"."
+            }
+          }
+        }
+      }
+    }
+  }
+}

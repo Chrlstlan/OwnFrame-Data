@@ -1,0 +1,894 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-25, completed 2026-11-08 from in-game notes, Honoria shop included. Set by uniqueName where DE's export carries the name twice: Sagek Prime Barrel Blueprint (an unused stock blueprint has the same name), Entrati Lanthorn (Zariman resource, not the lab bundle), Steel Essence, Salvage, Who Devours All Honoria (trailing space in the export). Descendia Arcane Collection and Insign Bundle are not in the catalog yet.",
+  "id": "roathe",
+  "name": "Roathe",
+  "location": {
+    "hub": "sanctum-anatomica",
+    "planet": "Deimos",
+    "detail": "La Cathédrale"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "itemName": "Descendia Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceCommonItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Insign Bundle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/UrielBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/UrielChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/UrielHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/UrielSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 35
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBarrelBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBladeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusReceiverBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusStockBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/GalariakPrimeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 35
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeBladeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeHandleBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/SagekPrimeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 35
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeReceiverBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrelBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/DamageForBonusArmour",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForMaxEnergy",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ShieldMaxForAbilityStrength",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MaxDPSTakenForArmour",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/FreezeEnemiesOnRoll",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/StealDefensiveStatsOnRoll",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/RadialDamageOnMaxRadiationStackHit",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityDurationOnCast",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SplitStatusProcsOnStackedStatusHit",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntMakvossCannon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntBoroOverlook",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntTerraformerEgg",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceQuestFortTennadis",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceObjLiminalBossArena",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileProtoframeRoomHarrow",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileProtoframeRoomWisp",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDevilTowerUrielArena",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDagath",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DagathAbyssItem",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOraxia",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/QorvexDeluxeTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBig",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 100000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBigger",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 1000000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBiggest",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 2500000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleTemple",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceDefense",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/BansheeDeluxeTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/GrnFlameSpearPart",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFollie",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/BaruukTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/FrostTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Cryotic",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMaphica",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TrinityTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Restoratives/SyndicateTeamHealTotem",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKonzu",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYareli",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleIgnia",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceCommonItem",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKoumei",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/FrumentariusTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleQorvex",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+          "amount": 470
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleAscarisPrime",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThermalSludge",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Ferrite",
+          "amount": 400000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/NovaTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJade",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/JadeShadows/Resources/AscensionResourceItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYaoShrub",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLamentus",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHydroid",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishMeatItem",
+          "amount": 310
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/NyxTitle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMotherTokens",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSaryn",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHexenon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/ConcentratedGas",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNokko",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCyteZeroNine",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+          "amount": 2600
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLyoricBridge",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOrokinCell",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/OrokinCell",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFatherTokens",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEntratiObols",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+          "amount": 100000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGauss",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemAItem",
+          "amount": 110
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCitrine",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal",
+          "amount": 200
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNanoSpores",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Nanospores",
+          "amount": 500000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSteelEssence",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/SteelEssence",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSpectralDebris",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCoprun",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEchoVoca",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCaliban",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/NarmerBountyResource",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/JuggernautPartA",
+          "amount": 50
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/JuggernautPartB",
+          "amount": 50
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/JuggernautPartC",
+          "amount": 50
+        },
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/JuggernautPartD",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDante",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/NavCode",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKullervo",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Recipes/WarframeRecipes/PriestChassisBlueprint",
+          "amount": 250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGaruda",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem",
+          "amount": 130
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSalvage",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Salvage",
+          "amount": 600000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRivenSilvers",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/RivenFragment",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLavos",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemAItem",
+          "amount": 110
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDebtBond",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Solaris/DebtTokenE",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGrendel",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocCommon",
+          "amount": 110
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleVoruna",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKuva",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Kuva",
+          "amount": 100000
+        }
+      ]
+    }
+  ]
+}

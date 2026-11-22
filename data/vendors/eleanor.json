@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-25. Rank requirements still unknown.",
+  "id": "eleanor",
+  "name": "Eleanor",
+  "syndicate": "the-hex",
+  "location": {
+    "hub": "hollvania"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritDamageForPunctureStatus",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusAndAmmoEfficiencyOnWeakpointHit",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttack",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStatusProcsGiveAbilityStrengthAndEfficiency",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthForMaxHealth",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritOnHit",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/ValenceAdapter",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaBubonico/CodaBubonicoCannon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaHema",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaHirudo",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaMire",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSynapse",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks",
+          "amount": 10
+        }
+      ]
+    }
+  ]
+}

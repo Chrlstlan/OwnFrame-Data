@@ -1,0 +1,862 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-10-25, completed 2026-11-08 from in-game notes. Rank of Adra Mutagen Blueprint from the 2026-10-25 entry.",
+  "id": "son",
+  "name": "Son",
+  "syndicate": "entrati",
+  "location": {
+    "hub": "necralisk",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMaggotRarityBoost",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMaggotLureGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodUncommonSkin",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodSkin",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/TranqRifleGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodRareSkin",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1250
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/EntratiRankOne",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1250
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorRarityBoost",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorLureGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedCritterRarityBoost",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedCritterLureGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMergooRarityBoost",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMergooLureGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenBBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/EntratiRankTwo",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenABlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenCBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/Proliferation",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/VoidClone",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/EntratiRankThree",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenCBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenCBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/BondedExaltation",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedZongroRarityBoost",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedZongroLureGearItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/BoneSplitter",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenCBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 4000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/EntratiRankFour",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenDBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 6000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePrecepts/InfestedCatbrowVampireShieldPrecept",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenDBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 6000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenDBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 6000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenDBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 6000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePrecepts/InfestedPredatorMaggotSummonerPrecept",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosLandscape",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 130000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/EntratiRankFive",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryUpgradeBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedKdriveCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedKdriveUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedKdriveRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMaggotCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMaggotUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMaggotRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMergooCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMergooUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedMergooRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedPredatorCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedPredatorUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedPredatorRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedZongroCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedZongroUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedZongroRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedNexiferaCommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedNexiferaUncommon",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaUncommon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedNexiferaRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaRare",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeDeimosItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotUncommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotRare",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterUncommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterRare",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorUncommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorRare",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooRare",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveUncommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveRare",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastResourceDoublingMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon",
+          "amount": 1
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroCommon",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/KubrowToxicConversionMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorUncommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotRare",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Friendly/Pets/BeastWeapons/Stances/BeastSpreadAttacksStance",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterUncommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterRare",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/BeastMagneticImpactMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooUncommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterRare",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/BeastWeakenedImmunityMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaRare",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/BeastKnockdownWeaponMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveRare",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroRare",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 36
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaUncommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 20
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotUncommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 21
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroCommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 11
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 13
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 13
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotCommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 10
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+      "quantity": 5,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 14
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    }
+  ]
+}

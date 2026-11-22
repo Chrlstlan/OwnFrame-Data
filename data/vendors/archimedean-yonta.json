@@ -1,0 +1,157 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Offers entered 2026-10-28. Also takes Voidplumes and Universal Medallions for Holdfasts standing (see the-holdfasts.json).",
+  "id": "archimedean-yonta",
+  "name": "Archimedean Yonta",
+  "location": {
+    "hub": "chrysalith",
+    "planet": "Zariman"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/WolfFrameBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 125
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/WolfFrameChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/WolfFrameHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/WolfFrameSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WolfFrameAxeWeaponBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/WolfFrameAxeWeaponBlade",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/WolfFrameAxeWeaponHandle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnQuadSniperRifleBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleBarrel",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleReceiver",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/TnQuadSniperRifleStock",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/IncreaseMaxHealthOnHealthPickup",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LongGunDamageOnReload",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileLuasPrey",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem",
+          "amount": 250
+        }
+      ]
+    }
+  ]
+}

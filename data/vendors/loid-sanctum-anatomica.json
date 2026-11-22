@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-08 from in-game notes. Rank requirements not recorded unless noted. Loid at the Necralisk (Necraloid) is a separate file: loid.json. Arcane collections are not in the catalog yet; their contents are not modelled. The 100,000 Credits offer is left out (credits are no catalog item). Voca trade-ins live in cavia.json standingTrades.",
+  "id": "loid-sanctum-anatomica",
+  "name": "Loid",
+  "location": {
+    "hub": "sanctum-anatomica",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 270
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 90
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/EntratiWristGunBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 360
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/EntFistIncarnonBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 180
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBladeBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 45
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGloveBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 45
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientSecretItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 180
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "itemName": "Cavia Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Duviri Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Eidolon Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Holdfasts Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Höllvania Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Necralisk Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Ostron Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Solaris Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "itemName": "Steel Arcane Collection",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/DistillPoints",
+          "amount": 200
+        }
+      ]
+    }
+  ]
+}

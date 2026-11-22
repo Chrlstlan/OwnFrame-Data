@@ -13,6 +13,9 @@ pipeline.
 | `ui.schema.json` | `i18n/locales/<lang>/ui.json` |
 | `updates.schema.json` | `data/updates.json` |
 | `known-items.schema.json` | `data/known-items.json` |
+| `vendor.schema.json` | `data/vendors/<id>.json` |
+| `syndicate.schema.json` | `data/syndicates/<id>.json` |
+| `common.schema.json` | shared definitions of the vendor and syndicate schemas |
 | `item.schema.json` | `data/items.json` (added when the catalog lands) |
 
 Schemas also serve as the format documentation — each field carries a

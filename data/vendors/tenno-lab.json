@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-11 from in-game notes. Price is what a player pays to replicate a blueprint once the clan has researched it. Research costs (resources, time, prerequisite research, clan-size multipliers) are not modelled here yet. Air Support Charges Blueprint is set by uniqueName: the export has a x1 and a x100 blueprint with the same name; this is the x100 one.",
+  "id": "tenno-lab",
+  "name": "Tenno Lab",
+  "location": {
+    "hub": "dojo"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/StoreItems/Consumables/LisetAirSupportHundredBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TennoUziBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 8,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnGuandaoPistolBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 10,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TennoLeverActionRifleBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 6,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TennoClawsBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 4,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WarfanBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 8,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/TnRevolverRifleBlueprint",
+      "price": [
+        {
+          "currency": "credits",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "masteryRank": 8,
+        "condition": "Researched by the clan in the Tenno Lab"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "../../schema/syndicate.schema.json",
+  "_comment": "Ranks and standing trades entered 2026-10-28. Still open: standing caps, rank-up costs, verified.",
+  "id": "the-holdfasts",
+  "name": "The Holdfasts",
+  "group": "open-world",
+  "hub": "chrysalith",
+  "ranks": [
+    {
+      "rank": 0,
+      "title": "Neutral"
+    },
+    {
+      "rank": 1,
+      "title": "Fallen"
+    },
+    {
+      "rank": 2,
+      "title": "Watcher"
+    },
+    {
+      "rank": 3,
+      "title": "Guardian"
+    },
+    {
+      "rank": 4,
+      "title": "Seraph"
+    },
+    {
+      "rank": 5,
+      "title": "Angel"
+    }
+  ],
+  "standingSources": [
+    "Bounties from Quinn in the Chrysalith",
+    "Trade Voidplumes and Universal Medallions to Archimedean Yonta"
+  ],
+  "standingTrades": [
+    {
+      "item": "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem",
+      "standing": 5000,
+      "vendor": "archimedean-yonta"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagBounty",
+      "standing": 2500,
+      "vendor": "archimedean-yonta"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagRare",
+      "standing": 2000,
+      "vendor": "archimedean-yonta"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagUncommon",
+      "standing": 1000,
+      "vendor": "archimedean-yonta"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagCommon",
+      "standing": 500,
+      "vendor": "archimedean-yonta"
+    },
+    {
+      "item": "/Lotus/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",
+      "standing": 1000,
+      "vendor": "archimedean-yonta"
+    }
+  ],
+  "note": "Rank up and check standing with Quinn in the Chrysalith."
+}

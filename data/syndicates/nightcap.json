@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/syndicate.schema.json",
+  "_comment": "Draft 2026-10-25: ranks, rank-up costs, standing sources and verified are still to be filled from the game.",
+  "id": "nightcap",
+  "name": "Nightcap",
+  "group": "open-world"
+}

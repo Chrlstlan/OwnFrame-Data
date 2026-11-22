@@ -1,0 +1,557 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-08 from in-game notes. Rank requirements not recorded unless noted.",
+  "id": "bird-3",
+  "name": "Bird 3",
+  "syndicate": "cavia",
+  "location": {
+    "hub": "sanctum-anatomica",
+    "planet": "Deimos"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/Focus/AttackLensOstron",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 60000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Focus/TacticLensOstron",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 60000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Focus/WardLensOstron",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 60000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Focus/DefenseLensOstron",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 60000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Focus/PowerLensOstron",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 60000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/GrimoireBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/CaviaRankFive",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAbilityEfficiencyMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 28000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostMaxMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 28000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileArchives",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAbilityDurationMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechRegenOnLowHealthMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechSlamDamageMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechArmourMaxMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAbilityRangeMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/CaviaRankFour",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameChassisBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameHelmetBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameSystemsBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/CaviaRankThree",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/EntSphereHammerBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechEnergyToOvershieldsMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechJumpHeightMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarDamageToEnergyMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechReflectOnShieldBreakMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechShieldMaxMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/CaviaRankTwo",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarDamageReductionInAir",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechSlideDamageMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarShieldRechargeRateMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarEnemyRadarMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechMeleeSpeedMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechMeleeRangeMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Necromech/NecromechSlideSpeedMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyCritOnRegularMelee",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CorrosiveMeleePerAbilityCast",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeProcsSpread",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PullEnemiesOnMeleeKill",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/Syndicate/CaviaRankOne",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalBoreal",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "note": "Rotates weekly with the other Archon Shards"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalAmar",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "note": "Rotates weekly with the other Archon Shards"
+    },
+    {
+      "item": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalNira",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "note": "Rotates weekly with the other Archon Shards"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabLightChandelierA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+          "amount": 10
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabOttoman",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+          "amount": 8
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+          "amount": 10
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabChairB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+          "amount": 20
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+          "amount": 20
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabLoveSeat",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+          "amount": 3
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+          "amount": 12
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+          "amount": 21
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabMachineJ",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare",
+          "amount": 2
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+          "amount": 42
+        },
+        {
+          "currency": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+          "amount": 32
+        }
+      ]
+    }
+  ]
+}
