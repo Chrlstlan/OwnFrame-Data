@@ -1,8 +1,56 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Draft 2026-10-25: ranks, rank-up costs, standing sources and verified are still to be filled from the game.",
+  "_comment": "Ranks entered 2026-11-22 from in-game notes. Still open: standing caps of ranks 0, 2, 3 and 5, rank-up costs of ranks 2-5, standing sources, verified.",
   "id": "ostron",
   "name": "Ostron",
   "group": "open-world",
-  "hub": "cetus"
+  "hub": "cetus",
+  "ranks": [
+    {
+      "rank": 0,
+      "title": "Neutral"
+    },
+    {
+      "rank": 1,
+      "title": "Offworlder",
+      "maxStanding": 22000
+    },
+    {
+      "rank": 2,
+      "title": "Visitor",
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishScalesItem",
+            "amount": 60
+          },
+          {
+            "currency": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
+            "amount": 40
+          },
+          {
+            "currency": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
+            "amount": 10
+          },
+          {
+            "currency": "credits",
+            "amount": 25000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Trusted"
+    },
+    {
+      "rank": 4,
+      "title": "Surah",
+      "maxStanding": 99000
+    },
+    {
+      "rank": 5,
+      "title": "Kin"
+    }
+  ]
 }

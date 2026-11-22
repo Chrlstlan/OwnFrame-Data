@@ -1,0 +1,443 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-22 from in-game notes. Offers without a rank requirement: rank not recorded yet. Zaw forging, Gild, Provide, Entitle and the daily Zaw are services, not items, and are left out.",
+  "id": "hok",
+  "name": "Hok",
+  "syndicate": "ostron",
+  "location": {
+    "hub": "cetus",
+    "planet": "Earth"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOneBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFourBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFiveBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipElevenBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFiveBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNineBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSixBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSixBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThreeBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwoBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThreeBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwoBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOneBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTenBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFourBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNineBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTenBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/SawBladeCmbOneMeleeTree",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritIIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIStatusIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIStatusIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIICritIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIICritIBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ChannelKillEnergyRate",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusTriggerRadialDamage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GroundSlamPull",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/FinisherLifesteal",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusChannelingDamage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritChannelingDamage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "itemName": "Ostron Armor Set",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 125000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    }
+  ]
+}

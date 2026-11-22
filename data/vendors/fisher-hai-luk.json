@@ -1,0 +1,359 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-22 from in-game notes. Offers without a rank requirement: rank not recorded yet. Boot Trophy Blueprint is set by uniqueName (Cetus version; Fortuna has one of the same name).",
+  "id": "fisher-hai-luk",
+  "name": "Fisher Hai-Luk",
+  "syndicate": "ostron",
+  "location": {
+    "hub": "cetus",
+    "planet": "Earth"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/AnglerVision",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/GenericFishBait",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearC",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearB",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothCommonFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothCommonFishBTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishBTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishCTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/DayUncommonFishBTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/BothRareFishBaitAItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 200
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/DayUncommonFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothUncommonFishBTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/NightRareFishBaitAItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 300
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/SoftTouch",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothUncommonFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothRareBootTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 400
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/NightRareFishBTrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/BothRareFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/NightRareFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 500
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/TrophyBlueprints/NightLegendaryFishATrophyBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 12500
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/StoreItems/AvatarImages/Conservation/AvatarImageEidolonFish",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishBPartItem",
+      "quantity": 10,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 14
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishCPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 7
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishBPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 5
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishAPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 9
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 7
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    },
+    {
+      "item": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishAPartItem",
+      "quantity": 20,
+      "price": [
+        {
+          "currency": "platinum",
+          "amount": 5
+        }
+      ],
+      "note": "Today's special: daily random selection"
+    }
+  ]
+}
