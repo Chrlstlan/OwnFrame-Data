@@ -1,8 +1,160 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Draft 2026-10-25: ranks, rank-up costs, standing sources and verified are still to be filled from the game.",
+  "_comment": "Ranks, rank-up costs and alignments entered 2026-11-28 from an in-game list (facts cross-checked with the Warframe Wiki). Still open: standingSources.",
   "id": "arbiters-of-hexis",
   "name": "Arbiters of Hexis",
   "group": "faction",
-  "hub": "relay"
+  "hub": "relay",
+  "alignments": {
+    "cephalon-suda": "allied",
+    "the-perrin-sequence": "opposed",
+    "red-veil": "enemy"
+  },
+  "ranks": [
+    {
+      "rank": -2,
+      "title": "Fraud",
+      "maxStanding": 0
+    },
+    {
+      "rank": -1,
+      "title": "Deceiver",
+      "maxStanding": 0,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/OrokinReactor",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 100000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0,
+      "title": "Neutral",
+      "maxStanding": 5000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/Forma",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 50000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1,
+      "title": "Principled",
+      "maxStanding": 22000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/Gallium",
+            "amount": 2
+          },
+          {
+            "currency": "credits",
+            "amount": 30000
+          },
+          {
+            "currency": "standing",
+            "amount": 5000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Authentic",
+      "maxStanding": 44000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/Forma",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 50000
+          },
+          {
+            "currency": "standing",
+            "amount": 22000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Lawful",
+      "maxStanding": 70000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/OrokinReactor",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 100000
+          },
+          {
+            "currency": "standing",
+            "amount": 44000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Crusader",
+      "maxStanding": 99000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/SchismKey",
+            "amount": 2
+          },
+          {
+            "currency": "credits",
+            "amount": 250000
+          },
+          {
+            "currency": "standing",
+            "amount": 70000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Maxim",
+      "maxStanding": 132000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/SchismKey",
+            "amount": 3
+          },
+          {
+            "currency": "credits",
+            "amount": 500000
+          },
+          {
+            "currency": "standing",
+            "amount": 99000
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Initiation at rank 0 costs 500 Alloy Plate and 10,000 Credits. The rank-up costs of Neutral and rank -1 are paid to climb back from the negative ranks."
 }

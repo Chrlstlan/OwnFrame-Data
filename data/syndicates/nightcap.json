@@ -1,7 +1,59 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Draft 2026-10-25: ranks, rank-up costs, standing sources and verified are still to be filled from the game.",
+  "_comment": "Ranks entered 2026-11-28 (facts cross-checked with the Warframe Wiki). Nightcap has no standing: wares cost Fergolyte, ranks unlock by mushrooms. Still open: standing sources.",
   "id": "nightcap",
   "name": "Nightcap",
-  "group": "open-world"
+  "group": "open-world",
+  "hub": "fortuna",
+  "ranks": [
+    {
+      "rank": 0,
+      "title": "Neutral"
+    },
+    {
+      "rank": 1,
+      "title": "Unknowing",
+      "rankUp": {
+        "tasks": [
+          "Give Nightcap 1 mushroom"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Curious",
+      "rankUp": {
+        "tasks": [
+          "Give Nightcap 2 mushrooms"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Seeker",
+      "rankUp": {
+        "tasks": [
+          "Give Nightcap 6 mushrooms"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Gardener",
+      "rankUp": {
+        "tasks": [
+          "Give Nightcap 12 mushrooms"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Steward",
+      "rankUp": {
+        "tasks": [
+          "Give Nightcap 16 mushrooms"
+        ]
+      }
+    }
+  ]
 }

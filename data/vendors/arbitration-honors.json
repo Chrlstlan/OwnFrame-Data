@@ -1,0 +1,490 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-28 from an in-game list (facts cross-checked with the Warframe Wiki). Sold at the Arbitration Honors console in every Relay; prices in Vitus Essence. Archgun Riven Mod is set by uniqueName (veiled riven), Adaptation too (the export has a second mod of that name).",
+  "id": "arbitration-honors",
+  "name": "Arbitration Honors",
+  "location": {
+    "hub": "relay"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/Skins/Clan/EliteAlertBadgeItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/EliteAlertShipDeco",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Components/AmberStarBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/ArbitersRewardStatue",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/EnergySigilB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/EnergyOnHeadshotRifle",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/WeaponResistSelfDamageMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/AvatarAuraPowerMaxMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Warframe/AvatarHolsterDamageMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Warframe/AvatarInvulnOnRollMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Warframe/AvatarSpawnEnergyMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/Event/Arbitration/JumpRefreshOnKillRifleMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/Event/Arbitration/ShootPickUpRifleMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/Event/ShootPickUpPistolMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAmprex",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAtomos",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAtterax",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Effects/AvatarBloodA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Effects/FootstepsHeat",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Operator/Accessories/ArbitrationA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Operator/Accessories/ArbitrationB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/FusionTreasures/OroFusexH",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/Kuva",
+      "quantity": 10000,
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Randomized/LotusArchgunRandomModRare",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 35
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/ArbitrationEmote",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "itemName": "Grendel Chassis Locator",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "itemName": "Grendel Neuroptics Locator",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "itemName": "Grendel Systems Locator",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemVitusEssence",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Shotgun/WeaponProjectileSpeedSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/WeaponStatusChanceSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/Event/CritChanceWhileAimingPistolSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/WeaponFireIterationsSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Shotgun/WeaponFireIterationsSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Shotgun/WeaponStatusChanceSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Rifle/Event/CritChanceWhileAimingRifleSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Pistol/WeaponStatusChanceSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnPistolHeadshot",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnHeavyGunEquipped",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealCompanionOnSixMeleeKills",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDmgOnRifleKill",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDmgOnMeleeKill",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/WarframeAuraBloodLetterMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Warframe/AvatarResistanceOnDamageMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/WarframeAuraVerticalityMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/WarframeAuraLoyalHerdMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/WarframeAuraBladedRestraintMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Aura/WarframeAuraWickedStrikesMod",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Effects/FootstepsPetals",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/Elitium",
+          "amount": 30
+        }
+      ]
+    }
+  ]
+}

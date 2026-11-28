@@ -1,8 +1,158 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Draft 2026-10-25: ranks, rank-up costs, standing sources and verified are still to be filled from the game.",
+  "_comment": "Ranks and rank-up costs entered 2026-11-28 from an in-game list (facts cross-checked with the Warframe Wiki). Alignments so far only the mirror of Arbiters of Hexis. Still open: other alignments, standingSources.",
   "id": "cephalon-suda",
   "name": "Cephalon Suda",
   "group": "faction",
-  "hub": "relay"
+  "hub": "relay",
+  "alignments": {
+    "arbiters-of-hexis": "allied"
+  },
+  "ranks": [
+    {
+      "rank": -2,
+      "title": "Waste",
+      "maxStanding": 0
+    },
+    {
+      "rank": -1,
+      "title": "Debris",
+      "maxStanding": 0,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/OrokinCatalyst",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 100000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 0,
+      "title": "Neutral",
+      "maxStanding": 5000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/Forma",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 50000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 1,
+      "title": "Competent",
+      "maxStanding": 22000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/ControlModule",
+            "amount": 2
+          },
+          {
+            "currency": "credits",
+            "amount": 30000
+          },
+          {
+            "currency": "standing",
+            "amount": 5000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Intriguing",
+      "maxStanding": 44000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/Forma",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 50000
+          },
+          {
+            "currency": "standing",
+            "amount": 22000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Intelligent",
+      "maxStanding": 70000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/OrokinCatalyst",
+            "amount": 1
+          },
+          {
+            "currency": "credits",
+            "amount": 100000
+          },
+          {
+            "currency": "standing",
+            "amount": 44000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Wise",
+      "maxStanding": 99000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/SchismKey",
+            "amount": 2
+          },
+          {
+            "currency": "credits",
+            "amount": 250000
+          },
+          {
+            "currency": "standing",
+            "amount": 70000
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Genius",
+      "maxStanding": 132000,
+      "rankUp": {
+        "cost": [
+          {
+            "currency": "/Lotus/Types/Items/MiscItems/SchismKey",
+            "amount": 3
+          },
+          {
+            "currency": "credits",
+            "amount": 500000
+          },
+          {
+            "currency": "standing",
+            "amount": 99000
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Initiation at rank 0 costs 500 Circuits and 10,000 Credits. The rank-up costs of Neutral and rank -1 are paid to climb back from the negative ranks."
 }

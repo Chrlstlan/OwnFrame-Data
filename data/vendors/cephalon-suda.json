@@ -1,0 +1,1289 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-28 from an in-game list (facts cross-checked with the Warframe Wiki). Squad restore and Specter blueprints are set by uniqueName (the export repeats those names).",
+  "id": "cephalon-suda",
+  "name": "Cephalon Suda",
+  "syndicate": "cephalon-suda",
+  "location": {
+    "hub": "relay"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaA",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 1000
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Components/ShieldDroneBallBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ],
+      "requires": {
+        "rank": 1
+      },
+      "note": "Blueprint crafts 5 Shield Osprey Specters"
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaB",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 2500
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaC",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaD",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 7500
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "itemName": "Relic Pack",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      },
+      "note": "3 random Void Relics"
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaE",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 10000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaF",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchHeavyPistolsReceiver",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchRailgunBarrel",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchCannonReceiver",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaG",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 12000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaH",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 17000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchBurstGunReceiver",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/ArchRocketCrossbowBarrel",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/StoreItems/Consumables/Restoratives/SyndicateTeamShieldTenPackBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Syndicate/BoltoMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Syndicate/KestrelMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Syndicate/ObexMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Mods/Syndicate/SupraMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaI",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 15000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaJ",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 20000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/CephalonSudaSyndicateOrnament",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 50000
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Banshee/PushAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Banshee/SonarAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Banshee/SilenceAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "itemName": "Resonating Quake",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Sentient/SentientWhirlwindAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Dragon/DragonBreathAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Dragon/DragonLuckAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Dragon/DragonScalesAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Dragon/DragonScalesAugmentTwoCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Dragon/DragonPeltAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Frost/IcicleAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Frost/IceSpikeAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Frost/IceShieldAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Frost/AvalancheAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Frost/FrostPassiveAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/IronFrame/IronFrameBlastAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/IronFrame/IronFrameStripAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/IronFrame/IronFrameEruptionAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Pirate/CannonBarrageAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Pirate/TidalWaveAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Pirate/LiquifyAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Pirate/KrakenAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Ranger/RangerQuiverAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Ranger/RangerControlAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Ranger/RangerStealAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Ranger/RangerBowAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Magician/BanishAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Magician/VolatileAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Magician/TearInSpaceAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Harlequin/IllusionAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Harlequin/ObjectChangeAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Harlequin/LightAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Nezha/NezhaTrailAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Nezha/NezhaRingAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Nezha/NezhaSashAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Nezha/NezhaSpearAugmentTwoCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Nezha/NezhaDisablePassiveMod",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/AntiMatter/NullStarAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/AntiMatter/AntiMatterDropAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/AntiMatter/WormHoleAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/AntiMatter/MolecularPrimeAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Bard/BardMusicAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Bard/BardCharmAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/ConcreteFrame/ConcreteWallAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/ConcreteFrame/ConcreteLaserAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Revenant/RevenantMarkAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Revenant/RevenantSentientAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Revenant/RevenantAfflictionAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Wraith/WraithReapAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Wraith/WraithSowAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Trapper/ZapTrapAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "itemName": "Repelling Bastille",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Trapper/MagHoleAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Wisp/WispReservoirAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Wisp/WispHarnessAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Wisp/WispSunAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/BrokenFrame/GraspAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/BrokenFrame/EmbraceAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/BrokenFrame/BrokenDestructAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Yareli/YareliBoardAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Yareli/YareliBoardAugmentTwoCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Yareli/YareliDisksAugmentCard",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Powersuits/Pagemaster/PagemasterBookAugment1Card",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 25000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaK",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Syndicates/CephalonSuda/LongGuns/CSSimulor",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 125000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 125000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Scarves/SyndicateCSScarf",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileBardBossArena",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Game/QuartersWallpapers/SyndicateCSWallpaper",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 125000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 75000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/Syndicate/CSCombatEmote",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 70000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/Syndicate/CSEngineeringEmote",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 70000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/Syndicate/CSGunneryEmote",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 70000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/Syndicate/CSPilotingEmote",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 70000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Emotes/Syndicate/CSSurvivabilityEmote",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 70000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "itemName": "Suda Armor Set",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 125000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      },
+      "note": "Suda armor pieces as a set"
+    },
+    {
+      "item": "/Lotus/Types/Items/DangerRoom/DangerRoomTileOrokinDerelictArtifactRoom",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 100000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/DistillPoints",
+      "quantity": 200,
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 30000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/Titles/CephalonSudaTitle",
+      "price": [
+        {
+          "currency": "standing",
+          "amount": 5000
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    }
+  ]
+}

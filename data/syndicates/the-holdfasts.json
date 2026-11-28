@@ -1,6 +1,6 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Ranks and standing trades entered 2026-10-28. Still open: standing caps, rank-up costs, verified.",
+  "_comment": "Ranks and standing trades entered 2026-10-28. Still open: standing caps, rank-up costs.",
   "id": "the-holdfasts",
   "name": "The Holdfasts",
   "group": "open-world",

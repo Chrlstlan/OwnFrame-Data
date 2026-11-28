@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "syndicate.schema.json",
   "title": "OwnFrame syndicate",
-  "description": "Validates one file in data/syndicates/: a single syndicate — its ranks, what each rank-up costs, its alignments and how standing is earned. One file per syndicate, named <id>.json = one wiki page. What the syndicate sells lives in data/vendors/ (vendors point here via `syndicate`), so offers are never kept twice. Alignment percentages are fixed by the game (allied +50 %, opposed -50 %, enemy -100 %) and live in the apps, not here. Write entries from what the game shows — do not copy tables from other wikis.",
+  "description": "Validates one file in data/syndicates/: a single syndicate — its ranks, what each rank-up costs, its alignments and how standing is earned. One file per syndicate, named <id>.json = one wiki page. What the syndicate sells lives in data/vendors/ (vendors point here via `syndicate`), so offers are never kept twice. Alignment percentages are fixed by the game (allied +50 %, opposed -50 %, enemy -100 %) and live in the apps, not here. Record facts only (ranks, costs, standing) — no text, descriptions or table layout from other sites; name the source in NOTICE.md.",
   "type": "object",
   "required": ["id", "name", "group"],
   "additionalProperties": false,
@@ -50,8 +50,7 @@
       "items": { "$ref": "#/definitions/standingTrade" },
       "description": "Items handed in for standing (e.g. Entrati family tokens), so the wiki can list them with localized names."
     },
-    "note": { "$ref": "common.schema.json#/definitions/text" },
-    "verified": { "$ref": "common.schema.json#/definitions/verified" }
+    "note": { "$ref": "common.schema.json#/definitions/text" }
   },
   "allOf": [
     {

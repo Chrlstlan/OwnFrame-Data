@@ -13,6 +13,7 @@ Warframe content.
 | Drop tables (missions, enemies, relics) | Digital Extremes official drop data |
 | Tradable item slugs | [warframe.market](https://warframe.market) public item data |
 | Per-locale name overlays | Digital Extremes localized Public Exports, plus community corrections |
+| Vendor offers, syndicate ranks and rank-up costs (`data/vendors/`, `data/syndicates/`) | Recorded in game; facts partly cross-checked with the [Warframe Wiki](https://wiki.warframe.com) (facts only, no wiki text) |
 
 ## Trademarks
 

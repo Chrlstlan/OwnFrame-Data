@@ -1,6 +1,6 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Standing trades entered 2026-10-25, ranks 2026-11-08 from in-game notes. The in-game notes list the rank-up cost on the Friend line; it is stored as the cost of reaching Family. Still open: standing caps of ranks 0-3 and 5, other rank-up costs, verified.",
+  "_comment": "Standing trades entered 2026-10-25, ranks 2026-11-08 from in-game notes. The in-game notes list the rank-up cost on the Friend line; it is stored as the cost of reaching Family. Still open: standing caps of ranks 0-3 and 5, other rank-up costs.",
   "id": "entrati",
   "name": "Entrati",
   "group": "open-world",

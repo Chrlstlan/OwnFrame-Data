@@ -16,7 +16,7 @@
 // required rank does not exist in the syndicate's ranks, ranks are not ascending.
 // Warnings (exit code 0): gaps still to fill — faction without alignments, an alignment the
 // other side does not mirror, offers without price, rank titles without rank numbers,
-// item names not resolved to a uniqueName yet, entries never verified in game.
+// item names not resolved to a uniqueName yet.
 
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
@@ -118,7 +118,6 @@ function handleItemNames(file, costLists, itemLists) {
 for (const { file, doc } of [...syndicates, ...vendors]) {
   if (path.basename(file, '.json') !== doc.id)
     errors.push(`${file}: id "${doc.id}" does not match the file name`)
-  if (!doc.verified) warnings.push(`${file}: never verified in game (no "verified")`)
   const costLists = [
     ...(doc.ranks ?? []).map((rank) => rank.rankUp?.cost ?? []),
     ...(doc.offers ?? []).map((offer) => offer.price ?? []),

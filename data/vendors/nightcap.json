@@ -1,0 +1,1155 @@
+{
+  "$schema": "../../schema/vendor.schema.json",
+  "_comment": "Entered 2026-11-28 from an in-game list (facts cross-checked with the Warframe Wiki). Wares and Nursery; prices in Fergolyte. Nursery decorations have no rank requirement. Set by uniqueName where the export name differs (trailing spaces, spacing, Dragonlily spelling): Reeking Puffball, Autumn Tuvul Sapling, Bush Cluster, Ficus Tree, Ghost Bush, Grass Tuft, Moonlight/Sunlight Dragonlily Decoration.",
+  "id": "nightcap",
+  "name": "Nightcap",
+  "syndicate": "nightcap",
+  "location": {
+    "hub": "fortuna",
+    "planet": "Venus"
+  },
+  "stock": "fixed",
+  "offers": [
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/SlashMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 0
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/PlainMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 0
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/ImpactMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 0
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/PunctureMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 0
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/HeatMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/ToxinMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/ElectricMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/ColdMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 1
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/CorrosiveMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/MagneticMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/RadiationMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/VoidMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/BlastMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/GasMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/ViralMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MushroomJournal/TauMushroomJournalItem",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Components/BronzeSpectreBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 50
+        }
+      ],
+      "requires": {
+        "rank": 2
+      },
+      "note": "Blueprint crafts 10 Vapor Specters"
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/NokkoBPoster",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/NokkoAPoster",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/NokkoCPoster",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 25
+        }
+      ],
+      "requires": {
+        "rank": 2
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/NokkoArchGunBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 220
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunBarrelBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 150
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunReceiverBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 150
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunStockBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 150
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/WeaponArchGunArcaneUnlocker",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 80
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/MiscItems/Kuva",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 75
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/FusionTreasures/OroFusexI",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 75
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryHeadshotCritMultOnHeadshot",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OverguardSteal",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "requires": {
+        "rank": 3
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NokkoBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 240
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NokkoChassisBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 160
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NokkoHelmetBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 160
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Recipes/WarframeRecipes/NokkoSystemsBlueprint",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 160
+        }
+      ],
+      "requires": {
+        "rank": 4
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColonyEntrance",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 60
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoBase",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 60
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoLab",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 60
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoPlant",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 60
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColony",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 60
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Upgrades/Skins/Effects/NokkoFootstepsEphemera",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 150
+        }
+      ],
+      "requires": {
+        "rank": 5
+      }
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxTreeNaturalSapling",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestD",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxBoxwoodHedgeA1x1m",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxBushA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonD",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenCobraLotus",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftFilterPlant",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGardenWildGingerB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroBushA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageD",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGrassA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenTallGrass",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthE",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerF",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerE",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyD",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthF",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenPitcherPlant",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantFernE",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantC",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyNightGrpA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageMature",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeMature",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantD",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroPorcelainBushA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmB",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterRoundA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox2mA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterCircle2mA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mAFoliageA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftAlienVibePlantAArrangement",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantRuksClawMature",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyDayGrpA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageYoung",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeYoung",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSVFoliagePurpleLarge",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSvCaveMushroomE",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropMossGroundCoverA",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    },
+    {
+      "item": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantE",
+      "price": [
+        {
+          "currency": "/Lotus/Types/Items/MiscItems/MushroomFood",
+          "amount": 10
+        }
+      ],
+      "note": "Nursery (decoration)"
+    }
+  ]
+}

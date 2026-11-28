@@ -1,6 +1,6 @@
 {
   "$schema": "../../schema/syndicate.schema.json",
-  "_comment": "Ranks entered 2026-11-22 from in-game notes. Still open: standing caps of ranks 0, 2, 3 and 5, rank-up costs of ranks 2-5, standing sources, verified.",
+  "_comment": "Ranks entered 2026-11-22 from in-game notes. Still open: standing caps of ranks 0, 2, 3 and 5, rank-up costs of ranks 2-5, standing sources.",
   "id": "ostron",
   "name": "Ostron",
   "group": "open-world",
